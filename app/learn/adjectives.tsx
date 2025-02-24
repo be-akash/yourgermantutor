@@ -1,18 +1,40 @@
 import React, { useEffect, useState } from "react";
-import { View, StyleSheet, TouchableOpacity } from "react-native";
+import {
+  View,
+  StyleSheet,
+  TouchableOpacity,
+  ActivityIndicator,
+} from "react-native";
 import { Card, Text, Button } from "react-native-paper";
 import { Ionicons } from "@expo/vector-icons";
 import * as Speech from "expo-speech";
-import wordsData from "../../assets/adjective.json";
+import { Picker } from "@react-native-picker/picker";
+
+const jsonFiles: Record<string, any> = {
+  alladjective: require("../../assets/adjectives/adjective.json"),
+  A1: require("../../assets/adjectives/adjective1.json"),
+};
 
 export default function AdjectiveScreen() {
   const [words, setWords] = useState<any[]>([]);
   const [currentWord, setCurrentWord] = useState<any | null>(null);
   const [showMeaning, setShowMeaning] = useState(false);
+  const [selectedFile, setSelectedFile] = useState<string>("A1");
+  const [loading, setLoading] = useState(false);
+
   useEffect(() => {
-    setWords(wordsData); // Load words from the JSON file
-    getRandomWord(wordsData);
-  }, []);
+    loadFile(selectedFile);
+  }, [selectedFile]);
+
+
+   // Load JSON data based on selection
+   const loadFile = (fileName: string) => {
+    setLoading(true);
+    const jsonData = jsonFiles[fileName];
+    setWords(jsonData);
+    getRandomWord(jsonData);
+    setLoading(false);
+  };
 
   const getRandomWord = (wordList: any[] = words) => {
     if (wordList.length > 0) {
@@ -26,63 +48,75 @@ export default function AdjectiveScreen() {
     }
   };
   const renderPlural = () => {
-      return (
-        <Card style={styles.pluralCard}>
-          <Card.Content>
-            <View style={styles.iconContainer}>
-              <TouchableOpacity
-                onPress={() => speakWord(currentWord.Opposite)}
-                style={styles.speakerButton}
-              >
-                <Ionicons name="volume-medium-outline" size={28} color="white" />
-              </TouchableOpacity>
-            </View>
-            <Text style={styles.pluralText}>
-              {currentWord.Opposite} <Text style={styles.ruleText}>({currentWord.Opposite_Meaning})</Text>
+    return (
+      <Card style={styles.pluralCard}>
+        <Card.Content>
+          <View style={styles.iconContainer}>
+            <TouchableOpacity
+              onPress={() => speakWord(currentWord.Opposite)}
+              style={styles.speakerButton}
+            >
+              <Ionicons name="volume-medium-outline" size={28} color="white" />
+            </TouchableOpacity>
+          </View>
+          <Text style={styles.pluralText}>
+            {currentWord.Opposite}{" "}
+            <Text style={styles.ruleText}>
+              ({currentWord.Opposite_Meaning})
             </Text>
-          </Card.Content>
-        </Card>
-      );
-    };
+          </Text>
+        </Card.Content>
+      </Card>
+    );
+  };
   return (
- <View style={styles.container}>
-       <Text style={styles.title}>Learn Noun and their Article</Text>
-       {currentWord ? (
-         <View style={styles.card}>
-           <Text style={styles.word}>{currentWord.German_Adjective}</Text>
-           <TouchableOpacity
-             onPress={() => speakWord(currentWord.German_Adjective)}
-             style={styles.iconButton}
-           >
-             <Ionicons name="volume-high" size={24} color="#007AFF" />
-           </TouchableOpacity>
-           <Text style={styles.meaning}>{currentWord.Meaning}</Text>
-           <TouchableOpacity
-             style={styles.button}
-             onPress={() => setShowMeaning(!showMeaning)}
-             // disabled={showMeaning}
-           >
-             <Text style={styles.buttonText}>
-               {showMeaning ? "Hide Opposite" : "Show Opposite"}
-             </Text>
-           </TouchableOpacity>
-           {showMeaning && renderPlural()}
-         </View>
-       ) : (
-         <Text>Loading...</Text>
-       )}
-       {/* <Card style={styles.card}> */}
-       <TouchableOpacity
-         onPress={() => getRandomWord()}
-         style={styles.nextButton}
-       >
-         <Ionicons name="refresh" size={24} color="white" />
-         <Text style={styles.nextButtonText}>Next Word</Text>
-       </TouchableOpacity>
- 
-       <Text style={styles.footer}>Total words: {words.length}</Text>
-       {/* </Card> */}
-     </View>
+    <View style={styles.container}>
+      <Picker
+        selectedValue={selectedFile}
+        onValueChange={(itemValue) => setSelectedFile(itemValue)}
+        style={styles.picker}
+      >
+        {Object.keys(jsonFiles).map((file, index) => (
+          <Picker.Item key={index} label={file} value={file} />
+        ))}
+      </Picker>
+      <Text style={styles.title}>Learn Adjective and their Opposite</Text>
+      {currentWord ? (
+        <View style={styles.card}>
+          <Text style={styles.word}>{currentWord.German_Adjective}</Text>
+          <TouchableOpacity
+            onPress={() => speakWord(currentWord.German_Adjective)}
+            style={styles.iconButton}
+          >
+            <Ionicons name="volume-high" size={24} color="#007AFF" />
+          </TouchableOpacity>
+          <Text style={styles.meaning}>{currentWord.Meaning}</Text>
+          <TouchableOpacity
+            style={styles.button}
+            onPress={() => setShowMeaning(!showMeaning)}
+            // disabled={showMeaning}
+          >
+            <Text style={styles.buttonText}>
+              {showMeaning ? "Hide Opposite" : "Show Opposite"}
+            </Text>
+          </TouchableOpacity>
+          {showMeaning && renderPlural()}
+        </View>
+      ) : (
+        <Text>Loading...</Text>
+      )}
+      {/* <Card style={styles.card}> */}
+      <TouchableOpacity
+        onPress={() => getRandomWord()}
+        style={styles.nextButton}
+      >
+        <Ionicons name="refresh" size={24} color="white" />
+        <Text style={styles.nextButtonText}>Next Word</Text>
+      </TouchableOpacity>
+
+      <Text style={styles.footer}>Total words: {words.length}</Text>
+      {/* </Card> */}
+    </View>
   );
 }
 
@@ -107,6 +141,12 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.3,
     shadowRadius: 3,
     marginTop: 20,
+  },
+  picker: {
+    width: "80%",
+    backgroundColor: "#133770",
+    marginBottom: 20,
+    color :"#eb2348"
   },
   pluralCard: {
     width: "100%",
@@ -147,7 +187,7 @@ const styles = StyleSheet.create({
   ruleText: {
     fontSize: 18,
     fontWeight: "600",
-    color: "#555",
+    color :"#eb2348"
   },
 
   nextButtonText: {
@@ -161,6 +201,7 @@ const styles = StyleSheet.create({
     fontSize: 22,
     fontWeight: "bold",
     marginBottom: 20,
+    color :"#eb2348"
   },
   card: {
     width: "90%",
@@ -183,6 +224,7 @@ const styles = StyleSheet.create({
   meaning: {
     fontSize: 18,
     marginTop: 10,
+    color :"#eb2348"
   },
   verbform: {
     fontSize: 18,

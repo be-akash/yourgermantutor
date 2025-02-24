@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
+import { View, Text, StyleSheet, TouchableOpacity,ActivityIndicator } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import * as Speech from "expo-speech";
-import wordsData from "../../assets/verb.json"
+import { Picker } from "@react-native-picker/picker";
+// import wordsData from "../../assets/verb.json"
 
 // Define TypeScript type
 // type GermanWord = {
@@ -19,16 +20,29 @@ import wordsData from "../../assets/verb.json"
 //   { word: "Auto", meaning: "Car" },
 // ];
 
+const jsonFiles: Record<string, any> = {
+  allVerb: require("../../assets/verbs/verb.json"),
+  A1: require("../../assets/verbs/verb1.json"),
+};
+
 export default function LearnGermanScreen() {
-    const [words, setWords] = useState<any[]>([]);
+  const [words, setWords] = useState<any[]>([]);
   const [currentWord, setCurrentWord] = useState<any | null>(null);
   const [showMeaning, setShowMeaning] = useState(false);
-  
+  const [selectedFile, setSelectedFile] = useState<string>("A1");
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    setWords(wordsData); // Load words from the JSON file
-    getRandomWord(wordsData);
-  }, []);
+    loadFile(selectedFile);
+  }, [selectedFile]);
+
+  const loadFile = (fileName: string) => {
+    setLoading(true);
+    const jsonData = jsonFiles[fileName];
+    setWords(jsonData);
+    getRandomWord(jsonData);
+    setLoading(false);
+  };
 
   const getRandomWord = (wordList: any[] = words) => {
     if (wordList.length > 0) {
@@ -52,33 +66,33 @@ export default function LearnGermanScreen() {
       <View style={styles.konjugationTable}>
         <Text style={styles.tableHeader}>Conjugation Table</Text>
         <View style={styles.tableRow}>
-        <Text style={styles.tableCell}>Rule</Text>
-        <Text style={styles.tableCell}>{currentWord.Rule}</Text>
+          <Text style={styles.tableCell}>Rule</Text>
+          <Text style={styles.tableCell}>{currentWord.Rule}</Text>
         </View>
         <View style={styles.tableRow}>
-        <Text style={styles.tableCell}>Ich</Text>
-        <Text style={styles.tableCell}>{currentWord.ich}</Text>
+          <Text style={styles.tableCell}>Ich</Text>
+          <Text style={styles.tableCell}>{currentWord.ich}</Text>
         </View>
         <View style={styles.tableRow}>
-        <Text style={styles.tableCell}>Du</Text>
-        <Text style={styles.tableCell}>{currentWord.du}</Text>
+          <Text style={styles.tableCell}>Du</Text>
+          <Text style={styles.tableCell}>{currentWord.du}</Text>
         </View>
         <View style={styles.tableRow}>
-        <Text style={styles.tableCell}>Er/Sie/Es</Text>
-        <Text style={styles.tableCell}>{currentWord.er_es_sie}</Text>
+          <Text style={styles.tableCell}>Er/Sie/Es</Text>
+          <Text style={styles.tableCell}>{currentWord.er_es_sie}</Text>
         </View>
         <View style={styles.tableRow}>
-        <Text style={styles.tableCell}>Wir</Text>
-        <Text style={styles.tableCell}>{currentWord.wir}</Text>
+          <Text style={styles.tableCell}>Wir</Text>
+          <Text style={styles.tableCell}>{currentWord.wir}</Text>
         </View>
 
         <View style={styles.tableRow}>
-        <Text style={styles.tableCell}>Ihr</Text>
-        <Text style={styles.tableCell}>{currentWord.ihr}</Text>
+          <Text style={styles.tableCell}>Ihr</Text>
+          <Text style={styles.tableCell}>{currentWord.ihr}</Text>
         </View>
         <View style={styles.tableRow}>
-        <Text style={styles.tableCell}>Sie/sie</Text>
-        <Text style={styles.tableCell}>{currentWord.Sie_sie}</Text>
+          <Text style={styles.tableCell}>Sie/sie</Text>
+          <Text style={styles.tableCell}>{currentWord.Sie_sie}</Text>
         </View>
       </View>
     );
@@ -87,8 +101,18 @@ export default function LearnGermanScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Learn Verb</Text>
-
-      {currentWord ? (
+      <Picker
+        selectedValue={selectedFile}
+        onValueChange={(itemValue) => setSelectedFile(itemValue)}
+        style={styles.picker}
+      >
+        {Object.keys(jsonFiles).map((file, index) => (
+          <Picker.Item key={index} label={file} value={file} />
+        ))}
+      </Picker>
+      {loading ? (
+              <ActivityIndicator size="large" color="#007AFF" />
+            ) :currentWord ? (
         <View style={styles.card}>
           <Text style={styles.word}>{currentWord.Word}</Text>
           <TouchableOpacity onPress={speakWord} style={styles.iconButton}>
@@ -102,7 +126,9 @@ export default function LearnGermanScreen() {
             onPress={() => setShowMeaning(!showMeaning)}
             // disabled={showMeaning}
           >
-            <Text style={styles.buttonText}>{showMeaning ? "Hide Konjugation" : "Show Konjugation"}</Text>
+            <Text style={styles.buttonText}>
+              {showMeaning ? "Hide Konjugation" : "Show Konjugation"}
+            </Text>
           </TouchableOpacity>
 
           {showMeaning && renderKonjugationTable()}
@@ -111,7 +137,7 @@ export default function LearnGermanScreen() {
         <Text>Loading...</Text>
       )}
 
-<TouchableOpacity
+      <TouchableOpacity
         onPress={() => getRandomWord()}
         style={styles.nextButton}
       >
@@ -131,6 +157,12 @@ const styles = StyleSheet.create({
     alignItems: "center",
     backgroundColor: "#080808",
     padding: 20,
+  },
+  picker: {
+    width: "80%",
+    backgroundColor: "#133770",
+    marginBottom: 20,
+    color: "#eb2348",
   },
   nextButton: {
     flexDirection: "row",
@@ -152,11 +184,12 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     marginLeft: 10,
   },
-  
+
   title: {
     fontSize: 22,
     fontWeight: "bold",
     marginBottom: 20,
+    color: "#eb2348",
   },
   card: {
     width: "90%",
@@ -174,13 +207,12 @@ const styles = StyleSheet.create({
   meaning: {
     fontSize: 18,
     marginTop: 10,
-    color :"#eb2348"
-    
+    color: "#eb2348",
   },
   verbform: {
     fontSize: 18,
     marginTop: 10,
-    color: '#ad4c45'
+    color: "#ad4c45",
   },
   button: {
     marginTop: 20,
@@ -207,20 +239,20 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "#ddd",
     width: "100%",
-    color :"#eb2348"
+    color: "#eb2348",
   },
   tableHeader: {
     fontWeight: "bold",
     backgroundColor: "#f1f1f1",
     padding: 10,
     textAlign: "center",
-    color :"#eb2348"
+    color: "#eb2348",
   },
   tableRow: {
     flexDirection: "row",
     borderBottomWidth: 1,
     borderBottomColor: "#ddd",
-    color:"#8c1b30"
+    color: "#8c1b30",
   },
   tableCell: {
     flex: 1,
@@ -228,6 +260,6 @@ const styles = StyleSheet.create({
     textAlign: "center",
     borderRightWidth: 1,
     borderRightColor: "#ddd",
-    color:"#8c1b30"
+    color: "#8c1b30",
   },
 });

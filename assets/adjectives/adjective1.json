@@ -1,0 +1,788 @@
+[
+  {
+    "Meaning": "late",
+    "German_Adjective": "spät",
+    "Opposite": "früh",
+    "Opposite_Meaning": "early"
+  },
+  {
+    "Meaning": "regular",
+    "German_Adjective": "schwach",
+    "Opposite": "stark",
+    "Opposite_Meaning": "irregular"
+  },
+  {
+    "Meaning": "Black",
+    "German_Adjective": "Schwarze",
+    "Opposite": "weiß",
+    "Opposite_Meaning": "White"
+  },
+  {
+    "Meaning": "blue",
+    "German_Adjective": "blaue",
+    "Opposite": "-",
+    "Opposite_Meaning": "-"
+  },
+  {
+    "Meaning": "Prepared",
+    "German_Adjective": "vorbereitet",
+    "Opposite": "-",
+    "Opposite_Meaning": "-"
+  },
+  {
+    "Meaning": "big",
+    "German_Adjective": "groß",
+    "Opposite": "klein",
+    "Opposite_Meaning": "small"
+  },
+  {
+    "Meaning": "long",
+    "German_Adjective": "lang",
+    "Opposite": "kurz",
+    "Opposite_Meaning": "short"
+  },
+  {
+    "Meaning": "round",
+    "German_Adjective": "rund",
+    "Opposite": "eckig",
+    "Opposite_Meaning": "angular"
+  },
+  {
+    "Meaning": "strong/powerful",
+    "German_Adjective": "stark/kraftig",
+    "Opposite": "schwach",
+    "Opposite_Meaning": "weak"
+  },
+  {
+    "Meaning": "even",
+    "German_Adjective": "gerade",
+    "Opposite": "ungerade",
+    "Opposite_Meaning": "uneven"
+  },
+  {
+    "Meaning": "beautiful",
+    "German_Adjective": "schön",
+    "Opposite": "hässlich",
+    "Opposite_Meaning": "ugly"
+  },
+  {
+    "Meaning": "fresh",
+    "German_Adjective": "frisch",
+    "Opposite": "verdorben, alt",
+    "Opposite_Meaning": "spoiled/old"
+  },
+  {
+    "Meaning": "difficult/complicated",
+    "German_Adjective": "schwierig/kompliziert",
+    "Opposite": "einfach",
+    "Opposite_Meaning": "easy"
+  },
+  {
+    "Meaning": "cold",
+    "German_Adjective": "kalt",
+    "Opposite": "warm/heiß",
+    "Opposite_Meaning": "warm/hot"
+  },
+  {
+    "Meaning": "lazy",
+    "German_Adjective": "faul",
+    "Opposite": "fleißig/aktiv",
+    "Opposite_Meaning": "hardworking/active"
+  },
+  {
+    "Meaning": "expensive",
+    "German_Adjective": "teuer",
+    "Opposite": "billig",
+    "Opposite_Meaning": "cheap"
+  },
+  {
+    "Meaning": "old",
+    "German_Adjective": "alt",
+    "Opposite": "neu",
+    "Opposite_Meaning": "new"
+  },
+  {
+    "Meaning": "sick",
+    "German_Adjective": "krank",
+    "Opposite": "gesund",
+    "Opposite_Meaning": "healthy"
+  },
+  {
+    "Meaning": "sour",
+    "German_Adjective": "sauer",
+    "Opposite": "süß",
+    "Opposite_Meaning": "sweet"
+  },
+  {
+    "Meaning": "tired",
+    "German_Adjective": "müde",
+    "Opposite": "munter",
+    "Opposite_Meaning": "cheerful"
+  },
+  {
+    "Meaning": "slim",
+    "German_Adjective": "schlank",
+    "Opposite": "dick",
+    "Opposite_Meaning": "fat"
+  },
+  {
+    "Meaning": "fast",
+    "German_Adjective": "schnell",
+    "Opposite": "langsam",
+    "Opposite_Meaning": "slow"
+  },
+  {
+    "Meaning": "good",
+    "German_Adjective": "gut",
+    "Opposite": "schlecht",
+    "Opposite_Meaning": "bad"
+  },
+  {
+    "Meaning": "loud",
+    "German_Adjective": "laut",
+    "Opposite": "ruhig/leise",
+    "Opposite_Meaning": "quiet"
+  },
+  {
+    "Meaning": "correct",
+    "German_Adjective": "richtig",
+    "Opposite": "falsch",
+    "Opposite_Meaning": "wrong"
+  },
+  {
+    "Meaning": "right",
+    "German_Adjective": "richtig",
+    "Opposite": "links",
+    "Opposite_Meaning": "left"
+  },
+  {
+    "Meaning": "hard",
+    "German_Adjective": "hart",
+    "Opposite": "weich",
+    "Opposite_Meaning": "soft"
+  },
+  {
+    "Meaning": "bright",
+    "German_Adjective": "hell",
+    "Opposite": "dunkel",
+    "Opposite_Meaning": "dark"
+  },
+  {
+    "Meaning": "equal",
+    "German_Adjective": "gleich",
+    "Opposite": "ungleich",
+    "Opposite_Meaning": "unequal"
+  },
+  {
+    "Meaning": "above",
+    "German_Adjective": "über",
+    "Opposite": "unter",
+    "Opposite_Meaning": "below"
+  },
+  {
+    "Meaning": "absent",
+    "German_Adjective": "abwesend",
+    "Opposite": "anwesend",
+    "Opposite_Meaning": "present"
+  },
+  {
+    "Meaning": "active",
+    "German_Adjective": "aktiv",
+    "Opposite": "faul",
+    "Opposite_Meaning": "lazy"
+  },
+  {
+    "Meaning": "add",
+    "German_Adjective": "hinzufügen",
+    "Opposite": "subtrahieren",
+    "Opposite_Meaning": "subtract"
+  },
+  {
+    "Meaning": "after",
+    "German_Adjective": "nach",
+    "Opposite": "vor",
+    "Opposite_Meaning": "before"
+  },
+  {
+    "Meaning": "alive",
+    "German_Adjective": "lebendig",
+    "Opposite": "tot",
+    "Opposite_Meaning": "dead"
+  },
+  {
+    "Meaning": "all",
+    "German_Adjective": "alle",
+    "Opposite": "keine",
+    "Opposite_Meaning": "none"
+  },
+  {
+    "Meaning": "always",
+    "German_Adjective": "immer",
+    "Opposite": "nie",
+    "Opposite_Meaning": "never"
+  },
+  {
+    "Meaning": "ancient",
+    "German_Adjective": "antik",
+    "Opposite": "modern",
+    "Opposite_Meaning": "modern"
+  },
+  {
+    "Meaning": "answer",
+    "German_Adjective": "antworten",
+    "Opposite": "fragen",
+    "Opposite_Meaning": "question"
+  },
+  {
+    "Meaning": "apart",
+    "German_Adjective": "auseinander",
+    "Opposite": "zusammen",
+    "Opposite_Meaning": "together"
+  },
+  {
+    "Meaning": "arrive",
+    "German_Adjective": "ankommen",
+    "Opposite": "abfahren",
+    "Opposite_Meaning": "depart"
+  },
+  {
+    "Meaning": "artificial",
+    "German_Adjective": "künstlich",
+    "Opposite": "natürlich",
+    "Opposite_Meaning": "natural"
+  },
+  {
+    "Meaning": "ascent",
+    "German_Adjective": "Aufstieg",
+    "Opposite": "Abstieg",
+    "Opposite_Meaning": "descent"
+  },
+  {
+    "Meaning": "ask",
+    "German_Adjective": "fragen",
+    "Opposite": "antworten",
+    "Opposite_Meaning": "answer"
+  },
+  {
+    "Meaning": "asleep",
+    "German_Adjective": "schlafend",
+    "Opposite": "wach",
+    "Opposite_Meaning": "awake"
+  },
+  {
+    "Meaning": "attack",
+    "German_Adjective": "angreifen",
+    "Opposite": "verteidigen",
+    "Opposite_Meaning": "defend"
+  },
+  {
+    "Meaning": "attractive",
+    "German_Adjective": "attraktiv",
+    "Opposite": "abstoßend",
+    "Opposite_Meaning": "repulsive"
+  },
+  {
+    "Meaning": "backward",
+    "German_Adjective": "rückwärts",
+    "Opposite": "vorwärts",
+    "Opposite_Meaning": "forward"
+  },
+  {
+    "Meaning": "bad",
+    "German_Adjective": "schlecht",
+    "Opposite": "gut",
+    "Opposite_Meaning": "good"
+  },
+  {
+    "Meaning": "beautiful",
+    "German_Adjective": "schön",
+    "Opposite": "hässlich",
+    "Opposite_Meaning": "ugly"
+  },
+  {
+    "Meaning": "begin",
+    "German_Adjective": "beginnen",
+    "Opposite": "enden",
+    "Opposite_Meaning": "end"
+  },
+  {
+    "Meaning": "below",
+    "German_Adjective": "unter",
+    "Opposite": "über",
+    "Opposite_Meaning": "above"
+  },
+  {
+    "Meaning": "best",
+    "German_Adjective": "beste",
+    "Opposite": "schlechteste",
+    "Opposite_Meaning": "worst"
+  },
+  {
+    "Meaning": "big",
+    "German_Adjective": "groß",
+    "Opposite": "klein",
+    "Opposite_Meaning": "small"
+  },
+  {
+    "Meaning": "birth",
+    "German_Adjective": "Geburt",
+    "Opposite": "Tod",
+    "Opposite_Meaning": "death"
+  },
+  {
+    "Meaning": "bitter",
+    "German_Adjective": "bitter",
+    "Opposite": "süß",
+    "Opposite_Meaning": "sweet"
+  },
+  {
+    "Meaning": "black",
+    "German_Adjective": "schwarz",
+    "Opposite": "weiß",
+    "Opposite_Meaning": "white"
+  },
+  {
+    "Meaning": "blunt",
+    "German_Adjective": "stumpf",
+    "Opposite": "scharf",
+    "Opposite_Meaning": "sharp"
+  },
+  {
+    "Meaning": "body",
+    "German_Adjective": "Körper",
+    "Opposite": "Seele",
+    "Opposite_Meaning": "soul"
+  },
+  {
+    "Meaning": "boring",
+    "German_Adjective": "langweilig",
+    "Opposite": "interessant",
+    "Opposite_Meaning": "interesting"
+  },
+  {
+    "Meaning": "borrow",
+    "German_Adjective": "leihen",
+    "Opposite": "verleihen",
+    "Opposite_Meaning": "lend"
+  },
+  {
+    "Meaning": "bottom",
+    "German_Adjective": "unten",
+    "Opposite": "oben",
+    "Opposite_Meaning": "top"
+  },
+  {
+    "Meaning": "boy",
+    "German_Adjective": "Junge",
+    "Opposite": "Mädchen",
+    "Opposite_Meaning": "girl"
+  },
+  {
+    "Meaning": "brave",
+    "German_Adjective": "mutig",
+    "Opposite": "feige",
+    "Opposite_Meaning": "cowardly"
+  },
+  {
+    "Meaning": "break",
+    "German_Adjective": "brechen",
+    "Opposite": "reparieren",
+    "Opposite_Meaning": "fix"
+  },
+  {
+    "Meaning": "broad",
+    "German_Adjective": "breit",
+    "Opposite": "schmal",
+    "Opposite_Meaning": "narrow"
+  },
+  {
+    "Meaning": "build",
+    "German_Adjective": "bauen",
+    "Opposite": "zerstören",
+    "Opposite_Meaning": "destroy"
+  },
+  {
+    "Meaning": "busy",
+    "German_Adjective": "beschäftigt",
+    "Opposite": "untätig",
+    "Opposite_Meaning": "idle"
+  },
+  {
+    "Meaning": "buy",
+    "German_Adjective": "kaufen",
+    "Opposite": "verkaufen",
+    "Opposite_Meaning": "sell"
+  },
+  {
+    "Meaning": "calm",
+    "German_Adjective": "ruhig",
+    "Opposite": "aufgeregt",
+    "Opposite_Meaning": "agitated"
+  },
+  {
+    "Meaning": "careful",
+    "German_Adjective": "vorsichtig",
+    "Opposite": "unvorsichtig",
+    "Opposite_Meaning": "careless"
+  },
+  {
+    "Meaning": "catch",
+    "German_Adjective": "fangen",
+    "Opposite": "verpassen",
+    "Opposite_Meaning": "miss"
+  },
+  {
+    "Meaning": "ceiling",
+    "German_Adjective": "Decke",
+    "Opposite": "Boden",
+    "Opposite_Meaning": "floor"
+  },
+  {
+    "Meaning": "certainly",
+    "German_Adjective": "sicherlich",
+    "Opposite": "wahrscheinlich",
+    "Opposite_Meaning": "probably"
+  },
+  {
+    "Meaning": "change",
+    "German_Adjective": "ändern",
+    "Opposite": "bleiben",
+    "Opposite_Meaning": "remain"
+  },
+  {
+    "Meaning": "child",
+    "German_Adjective": "Kind",
+    "Opposite": "Erwachsener",
+    "Opposite_Meaning": "adult"
+  },
+  {
+    "Meaning": "clean",
+    "German_Adjective": "sauber",
+    "Opposite": "schmutzig",
+    "Opposite_Meaning": "dirty"
+  },
+  {
+    "Meaning": "clear",
+    "German_Adjective": "klar",
+    "Opposite": "bewölkt",
+    "Opposite_Meaning": "cloudy"
+  },
+  {
+    "Meaning": "close",
+    "German_Adjective": "schließen",
+    "Opposite": "öffnen",
+    "Opposite_Meaning": "open"
+  },
+  {
+    "Meaning": "cold",
+    "German_Adjective": "kalt",
+    "Opposite": "heiß",
+    "Opposite_Meaning": "hot"
+  },
+  {
+    "Meaning": "come",
+    "German_Adjective": "kommen",
+    "Opposite": "gehen",
+    "Opposite_Meaning": "go"
+  },
+  {
+    "Meaning": "comedy",
+    "German_Adjective": "Komödie",
+    "Opposite": "Tragödie",
+    "Opposite_Meaning": "tragedy"
+  },
+  {
+    "Meaning": "complicated",
+    "German_Adjective": "kompliziert",
+    "Opposite": "einfach",
+    "Opposite_Meaning": "simple"
+  },
+  {
+    "Meaning": "compliment",
+    "German_Adjective": "Kompliment",
+    "Opposite": "Beleidigung",
+    "Opposite_Meaning": "insult"
+  },
+  {
+    "Meaning": "connect",
+    "German_Adjective": "verbinden",
+    "Opposite": "trennen",
+    "Opposite_Meaning": "separate"
+  },
+  {
+    "Meaning": "consonant",
+    "German_Adjective": "Konsonant",
+    "Opposite": "Vokal",
+    "Opposite_Meaning": "vowel"
+  },
+  {
+    "Meaning": "construction",
+    "German_Adjective": "Bau",
+    "Opposite": "Zerstörung",
+    "Opposite_Meaning": "destruction"
+  },
+  {
+    "Meaning": "continue",
+    "German_Adjective": "fortsetzen",
+    "Opposite": "stoppen",
+    "Opposite_Meaning": "stop"
+  },
+  {
+    "Meaning": "cool",
+    "German_Adjective": "kühl",
+    "Opposite": "warm",
+    "Opposite_Meaning": "warm"
+  },
+  {
+    "Meaning": "correct",
+    "German_Adjective": "richtig",
+    "Opposite": "falsch",
+    "Opposite_Meaning": "wrong"
+  },
+  {
+    "Meaning": "courage",
+    "German_Adjective": "Mut",
+    "Opposite": "Angst",
+    "Opposite_Meaning": "fear"
+  },
+  {
+    "Meaning": "create",
+    "German_Adjective": "erschaffen",
+    "Opposite": "zerstören",
+    "Opposite_Meaning": "destroy"
+  },
+  {
+    "Meaning": "cry",
+    "German_Adjective": "weinen",
+    "Opposite": "lachen",
+    "Opposite_Meaning": "laugh"
+  },
+  {
+    "Meaning": "damage",
+    "German_Adjective": "Schaden",
+    "Opposite": "reparieren",
+    "Opposite_Meaning": "repair"
+  },
+  {
+    "Meaning": "danger",
+    "German_Adjective": "Gefahr",
+    "Opposite": "Sicherheit",
+    "Opposite_Meaning": "safety"
+  },
+  {
+    "Meaning": "dark",
+    "German_Adjective": "dunkel",
+    "Opposite": "hell",
+    "Opposite_Meaning": "light"
+  },
+  {
+    "Meaning": "daughter",
+    "German_Adjective": "Tochter",
+    "Opposite": "Sohn",
+    "Opposite_Meaning": "son"
+  },
+  {
+    "Meaning": "day",
+    "German_Adjective": "Tag",
+    "Opposite": "Nacht",
+    "Opposite_Meaning": "night"
+  },
+  {
+    "Meaning": "deep",
+    "German_Adjective": "tief",
+    "Opposite": "seicht",
+    "Opposite_Meaning": "shallow"
+  },
+  {
+    "Meaning": "defeat",
+    "German_Adjective": "Niederlage",
+    "Opposite": "Sieg",
+    "Opposite_Meaning": "victory"
+  },
+  {
+    "Meaning": "defend",
+    "German_Adjective": "verteidigen",
+    "Opposite": "angreifen",
+    "Opposite_Meaning": "attack"
+  },
+  {
+    "Meaning": "delicious",
+    "German_Adjective": "köstlich",
+    "Opposite": "ekelhaft",
+    "Opposite_Meaning": "disgusting"
+  },
+  {
+    "Meaning": "deny",
+    "German_Adjective": "leugnen",
+    "Opposite": "zugeben",
+    "Opposite_Meaning": "admit"
+  },
+  {
+    "Meaning": "depart",
+    "German_Adjective": "abfahren",
+    "Opposite": "ankommen",
+    "Opposite_Meaning": "arrive"
+  },
+  {
+    "Meaning": "descend",
+    "German_Adjective": "absteigen",
+    "Opposite": "aufsteigen",
+    "Opposite_Meaning": "ascend"
+  },
+  {
+    "Meaning": "desperate",
+    "German_Adjective": "verzweifelt",
+    "Opposite": "hoffnungsvoll",
+    "Opposite_Meaning": "hopeful"
+  },
+  {
+    "Meaning": "destroy",
+    "German_Adjective": "zerstören",
+    "Opposite": "bauen",
+    "Opposite_Meaning": "build"
+  },
+  {
+    "Meaning": "difficult",
+    "German_Adjective": "schwierig",
+    "Opposite": "einfach",
+    "Opposite_Meaning": "easy"
+  },
+  {
+    "Meaning": "dirty",
+    "German_Adjective": "schmutzig",
+    "Opposite": "sauber",
+    "Opposite_Meaning": "clean"
+  },
+  {
+    "Meaning": "disease",
+    "German_Adjective": "Krankheit",
+    "Opposite": "Gesundheit",
+    "Opposite_Meaning": "health"
+  },
+  {
+    "Meaning": "distant",
+    "German_Adjective": "entfernt",
+    "Opposite": "nah",
+    "Opposite_Meaning": "near"
+  },
+  {
+    "Meaning": "divide",
+    "German_Adjective": "teilen",
+    "Opposite": "vereinen",
+    "Opposite_Meaning": "unite"
+  },
+  {
+    "Meaning": "divorce",
+    "German_Adjective": "Scheidung",
+    "Opposite": "Ehe",
+    "Opposite_Meaning": "marriage"
+  },
+  {
+    "Meaning": "doctor",
+    "German_Adjective": "Arzt",
+    "Opposite": "Patient",
+    "Opposite_Meaning": "patient"
+  },
+  {
+    "Meaning": "down",
+    "German_Adjective": "unten",
+    "Opposite": "oben",
+    "Opposite_Meaning": "up"
+  },
+  {
+    "Meaning": "dry",
+    "German_Adjective": "trocken",
+    "Opposite": "nass",
+    "Opposite_Meaning": "wet"
+  },
+  {
+    "Meaning": "dull",
+    "German_Adjective": "langweilig",
+    "Opposite": "aufregend",
+    "Opposite_Meaning": "exciting"
+  },
+  {
+    "Meaning": "early",
+    "German_Adjective": "früh",
+    "Opposite": "spät",
+    "Opposite_Meaning": "late"
+  },
+  {
+    "Meaning": "east",
+    "German_Adjective": "Osten",
+    "Opposite": "Westen",
+    "Opposite_Meaning": "west"
+  },
+  {
+    "Meaning": "easy",
+    "German_Adjective": "einfach",
+    "Opposite": "schwierig",
+    "Opposite_Meaning": "difficult"
+  },
+  {
+    "Meaning": "empty",
+    "German_Adjective": "leer",
+    "Opposite": "voll",
+    "Opposite_Meaning": "full"
+  },
+  {
+    "Meaning": "end",
+    "German_Adjective": "Ende",
+    "Opposite": "Anfang",
+    "Opposite_Meaning": "begin"
+  },
+  {
+    "Meaning": "enemy",
+    "German_Adjective": "Feind",
+    "Opposite": "Freund",
+    "Opposite_Meaning": "friend"
+  },
+  {
+    "Meaning": "enjoy",
+    "German_Adjective": "genießen",
+    "Opposite": "hassen",
+    "Opposite_Meaning": "hate"
+  },
+  {
+    "Meaning": "enter",
+    "German_Adjective": "eintreten",
+    "Opposite": "verlassen",
+    "Opposite_Meaning": "exit"
+  },
+  {
+    "Meaning": "even",
+    "German_Adjective": "gerade",
+    "Opposite": "ungerade",
+    "Opposite_Meaning": "odd"
+  },
+  {
+    "Meaning": "evening",
+    "German_Adjective": "Abend",
+    "Opposite": "Morgen",
+    "Opposite_Meaning": "morning"
+  },
+  {
+    "Meaning": "everybody",
+    "German_Adjective": "jeder",
+    "Opposite": "niemand",
+    "Opposite_Meaning": "nobody"
+  },
+  {
+    "Meaning": "everything",
+    "German_Adjective": "alles",
+    "Opposite": "nichts",
+    "Opposite_Meaning": "nothing"
+  },
+  {
+    "Meaning": "exact",
+    "German_Adjective": "genau",
+    "Opposite": "ungefähr",
+    "Opposite_Meaning": "approximate"
+  },
+  {
+    "Meaning": "exciting",
+    "German_Adjective": "aufregend",
+    "Opposite": "",
+    "Opposite_Meaning": "boring"
+  }
+]

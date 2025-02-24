@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { View, Text, TouchableOpacity, StyleSheet, TextInput } from "react-native";
 import { Picker } from "@react-native-picker/picker";
-import wordsData from "../../assets/nouns/nouns.json";
 
 const jsonFiles: Record<string, any> = {
   allNouns: require("../../assets/nouns/nouns.json"),
@@ -9,14 +8,14 @@ const jsonFiles: Record<string, any> = {
 };
 
 export default function NounTest() {
-  const [words, setWords] = useState(jsonFiles.allNouns);
+  const [words, setWords] = useState<any[]>([]);
   const [currentWord, setCurrentWord] = useState<{
     Meaning: string;
     Singular: string;
     Plural: string;
     Rules: string;
   } | null>(null);
-  const [selectedFile, setSelectedFile] = useState("allNouns");
+  const [selectedFile, setSelectedFile] = useState("A1");
   const [selectedTest, setSelectedTest] = useState("article");
   const [selectedArticle, setSelectedArticle] = useState("");
   const [userInput, setUserInput] = useState("");
@@ -35,7 +34,8 @@ export default function NounTest() {
     setLoading(false);
   };
 
-  const getRandomWord = (wordList = words) => {
+  const getRandomWord = (wordList:any[] = words) => {
+    // console.log(wordList)
     const newWord = wordList[Math.floor(Math.random() * wordList.length)];
     setCurrentWord(newWord);
     setSelectedArticle("");
@@ -178,7 +178,7 @@ export default function NounTest() {
         </View>
       )}
 
-      <TouchableOpacity style={styles.loadButton} onPress={getRandomWord}>
+      <TouchableOpacity style={styles.loadButton} onPress={() => getRandomWord()}>
         <Text style={styles.buttonText}>Load New Word</Text>
       </TouchableOpacity>
 
@@ -192,49 +192,53 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#080808",
+    backgroundColor: "#121212",
     padding: 20,
   },
   title: {
     fontSize: 22,
     fontWeight: "bold",
-    marginBottom: 20,
-    color :"#eb2348"
+    color: "#ff6b6b",
+    marginBottom: 10,
   },
   picker: {
-    height: 80,
     width: 300,
     marginBottom: 20,
-    color :"#eb2348",
-    backgroundColor:"#3e4747"
+    color: "#ff6b6b",
+    backgroundColor: "#1e1e1e",
   },
   card: {
     width: "90%",
-    backgroundColor: "#2e2b2b",
+    backgroundColor: "#242424",
     padding: 20,
     borderRadius: 10,
-    elevation: 4,
     alignItems: "center",
     marginBottom: 20,
   },
   word: {
     fontSize: 24,
     fontWeight: "bold",
-    color: "#007AFF",
+    color: "#4db6ac",
+    marginBottom: 10,
+  },
+  hint: {
+    fontSize: 18,
+    color: "#bbb",
     marginBottom: 10,
   },
   input: {
     width: "80%",
-    borderColor: "#007AFF",
+    borderColor: "#4db6ac",
     borderWidth: 1,
     borderRadius: 10,
     padding: 10,
     marginBottom: 10,
-    color :"#eb2348",
+    color: "#ff6b6b",
     textAlign: "center",
+    backgroundColor: "#1e1e1e",
   },
   button: {
-    backgroundColor: "#007AFF",
+    backgroundColor: "#4db6ac",
     paddingVertical: 10,
     paddingHorizontal: 20,
     borderRadius: 10,
@@ -246,7 +250,7 @@ const styles = StyleSheet.create({
   },
   loadButton: {
     marginTop: 20,
-    backgroundColor: "#28A745",
+    backgroundColor: "#ff6b6b",
     paddingVertical: 12,
     paddingHorizontal: 20,
     borderRadius: 10,
@@ -255,6 +259,6 @@ const styles = StyleSheet.create({
     marginTop: 10,
     fontSize: 18,
     fontWeight: "bold",
-    color :"#eb2348",
+    color: "#ff6b6b",
   },
 });

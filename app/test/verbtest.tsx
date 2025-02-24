@@ -1,22 +1,45 @@
 import React, { useState, useEffect } from "react";
-import { View, Text, TextInput, TouchableOpacity, StyleSheet, Animated } from "react-native";
+import {
+  View,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  StyleSheet,
+  Animated,
+} from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-import wordsData from "../../assets/verb.json";
+import { Picker } from "@react-native-picker/picker";
+
+const jsonFiles: Record<string, any> = {
+  allVerb: require("../../assets/verbs/verb.json"),
+  A1: require("../../assets/verbs/verb1.json"),
+};
 
 export default function VerbTestScreen() {
   const [testType, setTestType] = useState("german-to-english");
+  const [words, setWords] = useState<any[]>([]);
   const [currentWord, setCurrentWord] = useState<any | null>(null);
   const [userInput, setUserInput] = useState("");
   const [fadeAnim] = useState(new Animated.Value(0));
   const [feedbackText, setFeedbackText] = useState("");
   const [feedbackColor, setFeedbackColor] = useState("black");
-  
-  useEffect(() => {
-    loadNewWord();
-  }, [testType]);
+  const [selectedFile, setSelectedFile] = useState("A1");
+  const [loading, setLoading] = useState(false);
 
-  const loadNewWord = () => {
-    const randomWord = wordsData[Math.floor(Math.random() * wordsData.length)];
+  useEffect(() => {
+    loadFile(selectedFile);
+  }, [selectedFile]);
+  
+  const loadFile = (fileName: string) => {
+    setLoading(true);
+    const jsonData = jsonFiles[fileName];
+    setWords(jsonData);
+    loadNewWord(jsonData);
+    setLoading(false);
+  };
+
+  const loadNewWord = (wordList: any[] = words) => {
+    const randomWord = wordList[Math.floor(Math.random() * wordList.length)];
     setCurrentWord(randomWord);
     setUserInput("");
     setFeedbackText("");
@@ -24,9 +47,10 @@ export default function VerbTestScreen() {
 
   const checkAnswer = () => {
     if (!currentWord) return;
-    const correctAnswers = testType === "german-to-english" 
-      ? currentWord.Meaning.toLowerCase().split("/")
-      : currentWord.Word.toLowerCase().split("/");
+    const correctAnswers =
+      testType === "german-to-english"
+        ? currentWord.Meaning.toLowerCase().split("/")
+        : currentWord.Word.toLowerCase().split("/");
 
     if (correctAnswers.includes(userInput.trim().toLowerCase())) {
       setFeedbackText("Correct! 🎉");
@@ -46,7 +70,9 @@ export default function VerbTestScreen() {
         }, 1000);
       });
     } else {
-      setFeedbackText(`Wrong! ❌ The correct answer is: ${correctAnswers.join(" / ")}`);
+      setFeedbackText(
+        `Wrong! ❌ The correct answer is: ${correctAnswers.join(" / ")}`
+      );
       setFeedbackColor("red");
       Animated.timing(fadeAnim, {
         toValue: 1,
@@ -66,16 +92,32 @@ export default function VerbTestScreen() {
 
   return (
     <View style={styles.container}>
+      <Text style={styles.title}>Select File</Text>
+      <Picker
+        selectedValue={selectedFile}
+        onValueChange={(itemValue) => setSelectedFile(itemValue)}
+        style={styles.picker}
+      >
+        {Object.keys(jsonFiles).map((file, index) => (
+          <Picker.Item key={index} label={file} value={file} />
+        ))}
+      </Picker>
       <Text style={styles.title}>German Verb Test</Text>
       <View style={styles.dropdownContainer}>
         <TouchableOpacity
-          style={[styles.dropdownButton, testType === "german-to-english" && styles.activeButton]}
+          style={[
+            styles.dropdownButton,
+            testType === "german-to-english" && styles.activeButton,
+          ]}
           onPress={() => setTestType("german-to-english")}
         >
           <Text style={styles.buttonText}>German → English</Text>
         </TouchableOpacity>
         <TouchableOpacity
-          style={[styles.dropdownButton, testType === "english-to-german" && styles.activeButton]}
+          style={[
+            styles.dropdownButton,
+            testType === "english-to-german" && styles.activeButton,
+          ]}
           onPress={() => setTestType("english-to-german")}
         >
           <Text style={styles.buttonText}>English → German</Text>
@@ -84,7 +126,11 @@ export default function VerbTestScreen() {
 
       {currentWord && (
         <View style={styles.testCard}>
-          <Text style={styles.testWord}>{testType === "german-to-english" ? currentWord.Word : currentWord.Meaning}</Text>
+          <Text style={styles.testWord}>
+            {testType === "german-to-english"
+              ? currentWord.Word
+              : currentWord.Meaning}
+          </Text>
           <TextInput
             style={styles.input}
             placeholder="Enter your answer"
@@ -94,10 +140,18 @@ export default function VerbTestScreen() {
           <TouchableOpacity style={styles.checkButton} onPress={checkAnswer}>
             <Text style={styles.buttonText}>Check Answer</Text>
           </TouchableOpacity>
-          <Animated.Text style={[styles.feedbackText, { color: feedbackColor, opacity: fadeAnim }]}> 
+          <Animated.Text
+            style={[
+              styles.feedbackText,
+              { color: feedbackColor, opacity: fadeAnim },
+            ]}
+          >
             {feedbackText}
           </Animated.Text>
-          <TouchableOpacity style={styles.nextButton} onPress={loadNewWord}>
+          <TouchableOpacity
+            style={styles.nextButton}
+            onPress={() => loadNewWord()}
+          >
             <Ionicons name="refresh" size={24} color="white" />
             <Text style={styles.buttonText}>Next Word</Text>
           </TouchableOpacity>
@@ -119,6 +173,7 @@ const styles = StyleSheet.create({
     fontSize: 22,
     fontWeight: "bold",
     marginBottom: 20,
+    color: "#eb2348",
   },
   dropdownContainer: {
     flexDirection: "row",
@@ -149,7 +204,13 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: "bold",
     marginBottom: 10,
-    color :"#eb2348",
+    color: "#eb2348",
+  },
+  picker: {
+    width: 300,
+    marginBottom: 20,
+    color: "#ff6b6b",
+    backgroundColor: "#1e1e1e",
   },
   input: {
     width: "100%",
@@ -159,7 +220,7 @@ const styles = StyleSheet.create({
     padding: 10,
     marginBottom: 10,
     textAlign: "center",
-    color :"#eb2348",
+    color: "#eb2348",
   },
   checkButton: {
     backgroundColor: "#28A745",

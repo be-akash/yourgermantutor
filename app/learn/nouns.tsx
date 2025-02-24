@@ -19,7 +19,6 @@ export default function NounScreen() {
   const [words, setWords] = useState<any[]>([]);
   const [currentWord, setCurrentWord] = useState<any | null>(null);
   const [showMeaning, setShowMeaning] = useState(false);
-  const [files, setFiles] = useState<string[]>([]);
   const [selectedFile, setSelectedFile] = useState<string>("A1");
   const [loading, setLoading] = useState(false);
 
