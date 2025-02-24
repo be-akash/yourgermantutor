@@ -1,25 +1,44 @@
 import React, { useEffect, useState } from "react";
-import { View, StyleSheet, TouchableOpacity,ActivityIndicator  } from "react-native";
+import {
+  View,
+  StyleSheet,
+  TouchableOpacity,
+  ActivityIndicator,
+} from "react-native";
 import { Card, Text } from "react-native-paper";
 import { Ionicons } from "@expo/vector-icons";
 import { Picker } from "@react-native-picker/picker";
 import * as Speech from "expo-speech";
-import wordsData from "../../assets/nouns/nouns.json";
-import * as FileSystem from "expo-file-system";
+
+const jsonFiles: Record<string, any> = {
+  allNouns: require("../../assets/nouns/nouns.json"),
+  A1: require("../../assets/nouns/nouns1.json"),
+};
 
 export default function NounScreen() {
   const [words, setWords] = useState<any[]>([]);
   const [currentWord, setCurrentWord] = useState<any | null>(null);
   const [showMeaning, setShowMeaning] = useState(false);
   const [files, setFiles] = useState<string[]>([]);
-  const [selectedFile, setSelectedFile] = useState<string | null>(null);
+  const [selectedFile, setSelectedFile] = useState<string>("A1");
   const [loading, setLoading] = useState(false);
-  const folderPath = FileSystem.documentDirectory+'../../assets/nouns/nouns.json'
-console.log(folderPath)
+
+  // useEffect(() => {
+  //   setWords(wordsData); // Load words from the JSON file
+  //   getRandomWord(wordsData);
+  // }, []);
   useEffect(() => {
-    setWords(wordsData); // Load words from the JSON file
-    getRandomWord(wordsData);
-  }, []);
+    loadFile(selectedFile);
+  }, [selectedFile]);
+
+  // Load JSON data based on selection
+  const loadFile = (fileName: string) => {
+    setLoading(true);
+    const jsonData = jsonFiles[fileName];
+    setWords(jsonData);
+    getRandomWord(jsonData);
+    setLoading(false);
+  };
 
   const getRandomWord = (wordList: any[] = words) => {
     if (wordList.length > 0) {
@@ -46,18 +65,29 @@ console.log(folderPath)
             </TouchableOpacity>
           </View>
           <Text style={styles.pluralText}>
-            {currentWord.Plural} <Text style={styles.ruleText}>({currentWord.Rules})</Text>
+            {currentWord.Plural}{" "}
+            <Text style={styles.ruleText}>({currentWord.Rules})</Text>
           </Text>
         </Card.Content>
       </Card>
     );
   };
-  
 
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Learn Noun and their Article</Text>
-      {currentWord ? (
+      <Picker
+        selectedValue={selectedFile}
+        onValueChange={(itemValue) => setSelectedFile(itemValue)}
+        style={styles.picker}
+      >
+        {Object.keys(jsonFiles).map((file, index) => (
+          <Picker.Item key={index} label={file} value={file} />
+        ))}
+      </Picker>
+      {loading ? (
+        <ActivityIndicator size="large" color="#007AFF" />
+      ) :currentWord ? (
         <View style={styles.card}>
           <Text style={styles.word}>{currentWord.Singular}</Text>
           <TouchableOpacity
@@ -117,26 +147,32 @@ const styles = StyleSheet.create({
     shadowRadius: 3,
     marginTop: 20,
   },
+  picker: {
+    width: "80%",
+    backgroundColor: "#133770",
+    marginBottom: 20,
+    color :"#eb2348"
+  },
   pluralCard: {
     width: "100%",
-    backgroundColor: "#142d40",  // Light blue background
+    backgroundColor: "#142d40", // Light blue background
     borderRadius: 15,
     padding: 15,
     marginTop: 20,
-    elevation: 6,  // Adds a shadow effect
+    elevation: 6, // Adds a shadow effect
     shadowColor: "#000",
     shadowOffset: { width: 2, height: 3 },
     shadowOpacity: 0.3,
     shadowRadius: 5,
     alignItems: "center",
   },
-  
+
   iconContainer: {
     justifyContent: "center",
     alignItems: "center",
     marginBottom: 10,
   },
-  
+
   speakerButton: {
     backgroundColor: "#007AFF", // Blue button
     padding: 12,
@@ -145,31 +181,32 @@ const styles = StyleSheet.create({
     alignItems: "center",
     elevation: 4, // Adds depth
   },
-  
+
   pluralText: {
     fontSize: 22,
     fontWeight: "bold",
     color: "#007AFF",
     textAlign: "center",
   },
-  
+
   ruleText: {
     fontSize: 18,
     fontWeight: "600",
     color: "#754141",
   },
-  
+
   nextButtonText: {
     color: "white",
     fontSize: 18,
     fontWeight: "bold",
     marginLeft: 10,
   },
-  
+
   title: {
     fontSize: 22,
     fontWeight: "bold",
     marginBottom: 20,
+    color :"#eb2348"
   },
   card: {
     width: "90%",
@@ -192,6 +229,7 @@ const styles = StyleSheet.create({
   meaning: {
     fontSize: 18,
     marginTop: 10,
+    color :"#eb2348"
   },
   verbform: {
     fontSize: 18,

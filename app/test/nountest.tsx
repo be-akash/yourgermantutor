@@ -3,25 +3,40 @@ import { View, Text, TouchableOpacity, StyleSheet, TextInput } from "react-nativ
 import { Picker } from "@react-native-picker/picker";
 import wordsData from "../../assets/nouns/nouns.json";
 
+const jsonFiles: Record<string, any> = {
+  allNouns: require("../../assets/nouns/nouns.json"),
+  A1: require("../../assets/nouns/nouns1.json"),
+};
+
 export default function NounTest() {
-  const [words, setWords] = useState(wordsData);
+  const [words, setWords] = useState(jsonFiles.allNouns);
   const [currentWord, setCurrentWord] = useState<{
     Meaning: string;
     Singular: string;
     Plural: string;
     Rules: string;
   } | null>(null);
+  const [selectedFile, setSelectedFile] = useState("allNouns");
   const [selectedTest, setSelectedTest] = useState("article");
   const [selectedArticle, setSelectedArticle] = useState("");
   const [userInput, setUserInput] = useState("");
   const [feedback, setFeedback] = useState("");
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    getRandomWord();
-  }, []);
+    loadFile(selectedFile);
+  }, [selectedFile]);
 
-  const getRandomWord = () => {
-    const newWord = words[Math.floor(Math.random() * words.length)];
+  const loadFile = (fileName: string) => {
+    setLoading(true);
+    const jsonData = jsonFiles[fileName];
+    setWords(jsonData);
+    getRandomWord(jsonData);
+    setLoading(false);
+  };
+
+  const getRandomWord = (wordList = words) => {
+    const newWord = wordList[Math.floor(Math.random() * wordList.length)];
     setCurrentWord(newWord);
     setSelectedArticle("");
     setUserInput("");
@@ -76,6 +91,16 @@ export default function NounTest() {
 
   return (
     <View style={styles.container}>
+      <Text style={styles.title}>Select File</Text>
+      <Picker
+              selectedValue={selectedFile}
+              onValueChange={(itemValue) => setSelectedFile(itemValue)}
+              style={styles.picker}
+            >
+              {Object.keys(jsonFiles).map((file, index) => (
+                <Picker.Item key={index} label={file} value={file} />
+              ))}
+            </Picker>
       <Text style={styles.title}>Select Test Type</Text>
       <Picker
         selectedValue={selectedTest}
