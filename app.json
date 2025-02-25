@@ -11,15 +11,12 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/german.png",
         "backgroundColor": "#0f0f0f"
       },
-      "package": "com.beakash.GermanLearningApp"
+      "package": "com.beakash.germanlearningapp"
     },
     "web": {
       "bundler": "metro",
@@ -34,7 +31,7 @@
           "image": "./assets/images/german.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "##0f0f0f"
+          "backgroundColor": "#0f0f0f"
         }
       ]
     ],

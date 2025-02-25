@@ -86,9 +86,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.beakash.GermanLearningApp'
+    namespace 'com.beakash.germanlearningapp'
     defaultConfig {
-        applicationId 'com.beakash.GermanLearningApp'
+        applicationId 'com.beakash.germanlearningapp'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

@@ -1,4 +1,4 @@
-package com.beakash.GermanLearningApp
+package com.beakash.germanlearningapp
 import expo.modules.splashscreen.SplashScreenManager
 
 import android.os.Build
