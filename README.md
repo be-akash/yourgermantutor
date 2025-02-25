@@ -5,7 +5,13 @@ expo run:android
 
 for local installation
 cd android
+gradlew clean
 gradlew.bat assembleRelease
+
+for solving problem :
+rm -rf node_modules android/.gradle android/.cxx package-lock.json yarn.lock
+npm install  # or yarn install
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).

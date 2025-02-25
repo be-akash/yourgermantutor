@@ -239,20 +239,20 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "#ddd",
     width: "100%",
-    color: "#eb2348",
+    color: "#3030f0",
   },
   tableHeader: {
     fontWeight: "bold",
     backgroundColor: "#f1f1f1",
     padding: 10,
     textAlign: "center",
-    color: "#eb2348",
+    color: "#3030f0",
   },
   tableRow: {
     flexDirection: "row",
     borderBottomWidth: 1,
     borderBottomColor: "#ddd",
-    color: "#8c1b30",
+    color: "#3030f0",
   },
   tableCell: {
     flex: 1,
@@ -260,6 +260,6 @@ const styles = StyleSheet.create({
     textAlign: "center",
     borderRightWidth: 1,
     borderRightColor: "#ddd",
-    color: "#8c1b30",
+    color: "#e81717",
   },
 });
