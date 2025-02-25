@@ -1,0 +1,211 @@
+import React, { useState, useEffect } from "react";
+import {
+  View,
+  Text,
+  StyleSheet,
+  Image,
+  TouchableOpacity,
+  Modal,
+  Dimensions,
+} from "react-native";
+import { Picker } from "@react-native-picker/picker";
+import { Ionicons } from "@expo/vector-icons";
+import * as FileSystem from "expo-file-system";
+import * as ImagePicker from "expo-image-picker";
+
+const { width, height } = Dimensions.get("window");
+
+// Manually defined assets (cannot be loaded dynamically)
+const defaultImages = {
+  "Haben and Sein Verb": require("../../assets/tables/haben and sein.png"),
+  Nationality: require("../../assets/tables/nationality.jpg"),
+  "Possessive Pronoun": require("../../assets/tables/possessivepronomen.jpg"),
+  Article: require("../../assets/tables/pronoun.jpg"),
+  "Verb Konjugation Special Rules": require("../../assets/tables/verb konjugation special rules.jpg"),
+};
+
+// Directory for user-added images
+const userImagesFolder = FileSystem.documentDirectory + "images/";
+
+export default function ImageGalleryScreen() {
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const [modalVisible, setModalVisible] = useState(false);
+  const [userImages, setUserImages] = useState<{ [key: string]: string }>({});
+
+  // Load user-added images on app startup
+  useEffect(() => {
+    loadUserImages();
+  }, []);
+
+  const loadUserImages = async () => {
+    try {
+      const folderExists = await FileSystem.getInfoAsync(userImagesFolder);
+      if (!folderExists.exists) {
+        await FileSystem.makeDirectoryAsync(userImagesFolder, { intermediates: true });
+      }
+
+      // Get all image files in the directory
+      const files = await FileSystem.readDirectoryAsync(userImagesFolder);
+      const newImages: { [key: string]: string } = {};
+      files.forEach((file) => {
+        if (file.endsWith(".jpg") || file.endsWith(".png")) {
+          newImages[file] = userImagesFolder + file; // Store URI
+        }
+      });
+
+      setUserImages(newImages);
+    } catch (error) {
+      console.error("Error loading user images:", error);
+    }
+  };
+
+  // Function to allow user to add new image
+  const addNewImage = async () => {
+    const result = await ImagePicker.launchImageLibraryAsync({
+      mediaTypes: ImagePicker.MediaTypeOptions.Images,
+      allowsEditing: true,
+      quality: 1,
+    });
+
+    if (!result.canceled && result.assets) {
+      const pickedImage = result.assets[0];
+      const newFileName = `image_${Date.now()}.jpg`;
+      const newPath = userImagesFolder + newFileName;
+
+      try {
+        await FileSystem.moveAsync({
+          from: pickedImage.uri,
+          to: newPath,
+        });
+
+        // Update state to include new image
+        setUserImages((prevImages) => ({
+          ...prevImages,
+          [newFileName]: newPath,
+        }));
+      } catch (error) {
+        console.error("Error saving image:", error);
+      }
+    }
+  };
+
+  // Merge default and user-added images
+  const allImages = { ...defaultImages, ...userImages };
+
+  return (
+    <View style={styles.container}>
+      <Text style={styles.title}>Image Gallery</Text>
+
+      <Picker
+        selectedValue={selectedImage}
+        onValueChange={(itemValue) => setSelectedImage(itemValue)}
+        style={styles.picker}
+      >
+        <Picker.Item label="Select an Image" value={null} />
+        {Object.keys(allImages).map((name, index) => (
+          <Picker.Item key={index} label={name} value={name} />
+        ))}
+      </Picker>
+
+      <TouchableOpacity style={styles.addButton} onPress={addNewImage}>
+        <Text style={styles.addButtonText}>Add New Image</Text>
+      </TouchableOpacity>
+
+      {selectedImage && (
+        <TouchableOpacity onPress={() => setModalVisible(true)}>
+          <Image
+            source={
+              typeof allImages[selectedImage] === "string"
+                ? { uri: allImages[selectedImage] }
+                : allImages[selectedImage]
+            }
+            style={styles.image}
+            resizeMode="contain"
+          />
+        </TouchableOpacity>
+      )}
+
+      <Modal
+        visible={modalVisible}
+        transparent={true}
+        onRequestClose={() => setModalVisible(false)}
+      >
+        <View style={styles.modalContainer}>
+          <TouchableOpacity
+            onPress={() => setModalVisible(false)}
+            style={styles.closeButton}
+          >
+            <Ionicons name="close" size={30} color="white" />
+          </TouchableOpacity>
+          {selectedImage && (
+            <Image
+              source={
+                typeof allImages[selectedImage] === "string"
+                  ? { uri: allImages[selectedImage] }
+                  : allImages[selectedImage]
+              }
+              style={styles.fullImage}
+              resizeMode="contain"
+            />
+          )}
+        </View>
+      </Modal>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#080808",
+    padding: 20,
+  },
+  title: {
+    fontSize: 22,
+    fontWeight: "bold",
+    color: "#eb2348",
+    marginBottom: 20,
+  },
+  picker: {
+    width: "80%",
+    backgroundColor: "#133770",
+    marginBottom: 20,
+    color: "#eb2348",
+  },
+  image: {
+    width: width * 0.7,
+    height: height * 0.5,
+    marginTop: 20,
+    borderRadius: 10,
+  },
+  modalContainer: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "rgba(0, 0, 0, 0.8)",
+  },
+  fullImage: {
+    width: "90%",
+    height: "80%",
+    resizeMode: "contain",
+  },
+  closeButton: {
+    position: "absolute",
+    top: 40,
+    right: 20,
+    zIndex: 1,
+    padding: 10,
+  },
+  addButton: {
+    backgroundColor: "#eb2348",
+    padding: 10,
+    borderRadius: 10,
+    marginTop: 10,
+  },
+  addButtonText: {
+    color: "white",
+    fontSize: 16,
+  },
+});

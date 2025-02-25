@@ -31,7 +31,7 @@
           "image": "./assets/images/german.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#0f0f0f"
+          "backgroundColor": "#85c5d4"
         }
       ]
     ],

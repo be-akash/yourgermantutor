@@ -1,5 +1,11 @@
 
 eas build -p android --profile preview
+npx expo start -c
+expo run:android
+
+for local installation
+cd android
+gradlew.bat assembleRelease
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).

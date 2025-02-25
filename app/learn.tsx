@@ -30,13 +30,20 @@ export default function LearnScreen() {
           <Text style={styles.cardText}>Learn adjectives and their opposites.</Text>
         </Card.Content>
       </Card>
+      <Card style={styles.card} onPress={() => router.push("/learn/tables")}>
+        <Card.Content>
+          <Text style={styles.cardTitle}>📚 Tables</Text>
+          <Text style={styles.cardText}>Expand your knowledge with useful tables.</Text>
+        </Card.Content>
+      </Card>
 
-      <Card style={styles.card} onPress={() => router.push("/learn/words")}>
+      {/* <Card style={styles.card} onPress={() => router.push("/learn/words")}>
         <Card.Content>
           <Text style={styles.cardTitle}>📚 Words</Text>
           <Text style={styles.cardText}>Expand your vocabulary with useful words.</Text>
         </Card.Content>
-      </Card>
+      </Card> */}
+      
     </View>
   );
 }

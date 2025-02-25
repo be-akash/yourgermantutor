@@ -31,12 +31,12 @@ export default function TestScreen() {
         </Card.Content>
       </Card>
 
-      <Card style={styles.card} onPress={() => router.push("/test/wordtest")}>
+      {/* <Card style={styles.card} onPress={() => router.push("/test/wordtest")}>
         <Card.Content>
           <Text style={styles.cardTitle}>📚 Words</Text>
           <Text style={styles.cardText}>Expand your vocabulary with useful words.</Text>
         </Card.Content>
-      </Card>
+      </Card> */}
     </View>
   );
 }
