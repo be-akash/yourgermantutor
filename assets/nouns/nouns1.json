@@ -1,387 +1,21 @@
 [
   {
-    "Meaning": "reporter",
-    "Singular": "der Reporter",
-    "Plural": "die Reporter",
-    "Rules": "/--"
+    "Meaning": "Apple",
+    "Singular": "der Apfel ",
+    "Plural": "die Äpfel",
+    "Rules": "/-\"- "
   },
   {
-    "Meaning": "computer",
-    "Singular": "der Computer",
-    "Plural": "die Computer",
-    "Rules": "/--"
-  },
-  {
-    "Meaning": "partner",
-    "Singular": "der Partner",
-    "Plural": "die Partner",
-    "Rules": "/--"
-  },
-  {
-    "Meaning": "television set ",
-    "Singular": "der Fernseher ",
-    "Plural": "die Fernseher",
-    "Rules": "/--"
-  },
-  {
-    "Meaning": "teacher",
-    "Singular": "der Lehrer",
-    "Plural": "die Lehrer",
-    "Rules": "/--"
-  },
-  {
-    "Meaning": "rain",
-    "Singular": "der Regen",
-    "Plural": " die Regen",
-    "Rules": "/--"
-  },
-  {
-    "Meaning": "student",
-    "Singular": "der Schüler",
-    "Plural": "die Schüler",
-    "Rules": "/--"
-  },
-  {
-    "Meaning": "car",
-    "Singular": "der Wagen",
-    "Plural": "die Wagen",
-    "Rules": "/--"
-  },
-  {
-    "Meaning": "body",
-    "Singular": "der Körper",
-    "Plural": "die Körper",
-    "Rules": "/--"
-  },
-  {
-    "Meaning": "morning",
-    "Singular": "der Morgen",
-    "Plural": "die Morgen",
-    "Rules": "/--"
-  },
-  {
-    "Meaning": "mechanic",
-    "Singular": "Mechaniker ",
-    "Plural": "die Mechaniker",
-    "Rules": "/--"
-  },
-  {
-    "Meaning": "finger",
-    "Singular": " der Finger ",
-    "Plural": "die Finger",
-    "Rules": "/--"
-  },
-  {
-    "Meaning": "keys/tool/code",
-    "Singular": " der Schlüssel ",
-    "Plural": "die Schlüssel",
-    "Rules": "/--"
-  },
-  {
-    "Meaning": "painters",
-    "Singular": " der Maler ",
-    "Plural": " der Maler (painter)",
-    "Rules": "/--"
-  },
-  {
-    "Meaning": "non-resident",
-    "Singular": "der Ausländer ",
-    "Plural": "die Ausländer",
-    "Rules": "/--"
-  },
-  {
-    "Meaning": "spinal/back",
-    "Singular": "der Rücken        ",
-    "Plural": "die Rücken\t",
-    "Rules": "/--"
-  },
-  {
-    "Meaning": "Cake",
-    "Singular": "der Kuchen",
-    "Plural": "die Kuchen",
-    "Rules": "/--"
-  },
-  {
-    "Meaning": "Electric kettle",
-    "Singular": "der Wasserkocher",
-    "Plural": "die Wasserkocher",
-    "Rules": "/--"
-  },
-  {
-    "Meaning": "Window",
-    "Singular": "das Fenster ",
-    "Plural": "die Fenster",
-    "Rules": "/--"
-  },
-  {
-    "Meaning": "Exam",
-    "Singular": "das Examen",
-    "Plural": "die Examen",
-    "Rules": "/--"
-  },
-  {
-    "Meaning": "room/apartment",
-    "Singular": "das Zimmer",
-    "Plural": "die Zimmer",
-    "Rules": "/--"
-  },
-  {
-    "Meaning": "to live",
-    "Singular": "das Leben",
-    "Plural": "die Leben",
-    "Rules": "/--"
-  },
-  {
-    "Meaning": "Lunch",
-    "Singular": "das Mittagessen",
-    "Plural": "die Mittagessen",
-    "Rules": "/--"
-  },
-  {
-    "Meaning": "girl",
-    "Singular": "das Mädchen",
-    "Plural": "die Mädchen",
-    "Rules": "/--"
-  },
-  {
-    "Meaning": "ice",
-    "Singular": "das Eis",
-    "Plural": "die Eis",
-    "Rules": "/--"
-  },
-  {
-    "Meaning": "story",
-    "Singular": "das Märchen",
-    "Plural": "die Märchen",
-    "Rules": "/--"
-  },
-  {
-    "Meaning": "Swiss Army knife",
-    "Singular": "das Schweizer Messer",
-    "Plural": "die Schweizer Messer",
-    "Rules": "/--"
-  },
-  {
-    "Meaning": "Knee",
-    "Singular": "das Knie",
-    "Plural": "die Knie",
-    "Rules": "/--"
-  },
-  {
-    "Meaning": "buns/roll",
-    "Singular": "das Brötchen ",
-    "Plural": "die Brötchen",
-    "Rules": "/--"
-  },
-  {
-    "Meaning": "Service",
-    "Singular": "das Service ",
-    "Plural": "die Service",
-    "Rules": "/--"
-  },
-  {
-    "Meaning": "little table",
-    "Singular": "das Tischchen ",
-    "Plural": "die Tischchen",
-    "Rules": "/--"
-  },
-  {
-    "Meaning": "orange juice",
-    "Singular": "der Orangensaft",
-    "Plural": "die Orangensäfte",
-    "Rules": "/ \"-e"
-  },
-  {
-    "Meaning": "supermarket",
-    "Singular": "der Supermarkt",
-    "Plural": "die Supermärkte",
-    "Rules": "/ \"-e"
-  },
-  {
-    "Meaning": "Tree",
-    "Singular": "der Baum",
-    "Plural": "die Bäume",
-    "Rules": "/ \"-e"
-  },
-  {
-    "Meaning": "doctor",
-    "Singular": "der Arzt",
-    "Plural": "die ärzte",
-    "Rules": "/ \"-e"
-  },
-  {
-    "Meaning": "guest",
-    "Singular": "der Gast",
-    "Plural": "die Gäste",
-    "Rules": "/ \"-e"
-  },
-  {
-    "Meaning": "Playground",
-    "Singular": "der Spielplatz",
-    "Plural": "die Spielplätze",
-    "Rules": "/ \"-e"
-  },
-  {
-    "Meaning": "son",
-    "Singular": "der Sohn",
-    "Plural": "die Söhne",
-    "Rules": "/ \"-e"
-  },
-  {
-    "Meaning": "train",
-    "Singular": "der Zug",
-    "Plural": "die Züge",
-    "Rules": "/ \"-e"
-  },
-  {
-    "Meaning": "head",
-    "Singular": "der Kopf",
-    "Plural": "die Köpfe",
-    "Rules": "/ \"-e"
-  },
-  {
-    "Meaning": "reason",
-    "Singular": "der Grund",
-    "Plural": "die Gründe",
-    "Rules": "/ \"-e"
-  },
-  {
-    "Meaning": "case",
-    "Singular": "der Fall",
-    "Plural": "die Fälle",
-    "Rules": "/ \"-e"
-  },
-  {
-    "Meaning": "space",
-    "Singular": "der Raum",
-    "Plural": "die Räume",
-    "Rules": "/ \"-e"
-  },
-  {
-    "Meaning": "foot/pedal",
-    "Singular": "der Fuß",
-    "Plural": "die Füße",
-    "Rules": "/ \"-e"
-  },
-  {
-    "Meaning": "tooth",
-    "Singular": "der Zahn",
-    "Plural": "die Zähne",
-    "Rules": "/ \"-e"
-  },
-  {
-    "Meaning": "desk chair",
-    "Singular": "der Liegestuhl",
-    "Plural": "die Liegestühle",
-    "Rules": "/ \"-e"
-  },
-  {
-    "Meaning": "ball",
-    "Singular": "der Ball ",
-    "Plural": "die Bälle",
-    "Rules": "/ \"-e"
-  },
-  {
-    "Meaning": "town/city/urban",
-    "Singular": "die Stadt ",
-    "Plural": "die Städte",
-    "Rules": "/ \"-e"
-  },
-  {
-    "Meaning": "hand/manual",
-    "Singular": "die Hand",
-    "Plural": "die Hände",
-    "Rules": "/ \"-e"
-  },
-  {
-    "Meaning": "mouse",
-    "Singular": "die Maus",
-    "Plural": "die Mäuse",
-    "Rules": "/ \"-e"
-  },
-  {
-    "Meaning": "Cow",
-    "Singular": "die Kuh",
-    "Plural": "die Kühe",
-    "Rules": "/ \"-e"
-  },
-  {
-    "Meaning": "hand/manual",
-    "Singular": "die Hand ",
-    "Plural": "die Hände",
-    "Rules": "/ \"-e"
-  },
-  {
-    "Meaning": "Skin",
-    "Singular": "die Haut",
-    "Plural": "die Häute",
-    "Rules": "/ \"-e"
-  },
-  {
-    "Meaning": "night",
-    "Singular": "das Nacht",
-    "Plural": "die Nächte",
-    "Rules": "/ \"-e"
-  },
-  {
-    "Meaning": "Device",
-    "Singular": "das Gerät",
-    "Plural": "die Geräte",
-    "Rules": "/ \"-e"
-  },
-  {
-    "Meaning": "pin/stylus/spike/pencil",
-    "Singular": "der Stift",
-    "Plural": "die Stifte",
+    "Meaning": "bread",
+    "Singular": "das Brot",
+    "Plural": "die Brote",
     "Rules": "/ -e"
   },
   {
-    "Meaning": "table/desk",
-    "Singular": "der Tisch",
-    "Plural": "die Tische",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "occupation",
-    "Singular": "der Beruf ",
-    "Plural": "die Berufe",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "letter",
-    "Singular": "der Brief",
-    "Plural": "die Briefe",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "Film",
-    "Singular": "der Film",
-    "Plural": "die Filme",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "Monitor",
-    "Singular": "der Monitor ",
-    "Plural": "die Monitore/Monitoren",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "Sunshade",
-    "Singular": "der Sonnenschirm",
-    "Plural": "die Sonnenschirme",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "Guard/shield",
-    "Singular": "der Schirm",
-    "Plural": "die Schirme",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "",
-    "Singular": "der Campingbus ",
-    "Plural": " die Campingbusse",
-    "Rules": "/ -e"
+    "Meaning": "Disco",
+    "Singular": "  die Disko ",
+    "Plural": "die Diskos",
+    "Rules": "/ -s"
   },
   {
     "Meaning": "Fish",
@@ -390,100 +24,22 @@
     "Rules": "/ -e"
   },
   {
-    "Meaning": "Dog",
-    "Singular": "der Hund",
-    "Plural": "die Hunde",
-    "Rules": "/ -e"
+    "Meaning": "guest",
+    "Singular": "der Gast",
+    "Plural": "die Gäste",
+    "Rules": "/ \"-e"
   },
   {
-    "Meaning": "Day",
-    "Singular": "der Tag",
-    "Plural": "die Tage",
-    "Rules": "/ -e"
+    "Meaning": "hunger",
+    "Singular": "der Hunger",
+    "Plural": "",
+    "Rules": "No Plural"
   },
   {
-    "Meaning": "Way",
-    "Singular": "der Weg",
-    "Plural": "die Wege",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "Place/scene",
-    "Singular": "der Ort",
-    "Plural": "die Orte",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "Bus",
-    "Singular": "der Bus ",
-    "Plural": "die Busse",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "Wine",
-    "Singular": "der Wein  ",
-    "Plural": "die Weine",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "dancing course",
-    "Singular": "der Tanzkurs ",
-    "Plural": "die Tanzkurse",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "footpath/sidewalk",
-    "Singular": " der Gehweg",
-    "Plural": "die Gehwege",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "Arm",
-    "Singular": "der Arm ",
-    "Plural": "die Arme",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "Price",
-    "Singular": "der Preis ",
-    "Plural": "die Preise",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "holiday",
-    "Singular": " der Urlaub ",
-    "Plural": "die Urlaube",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "vacation day",
-    "Singular": "der Urlaubstag ",
-    "Plural": "die Urlaubstage",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "Star",
-    "Singular": "der Stern",
-    "Plural": "die Sterne",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "May",
-    "Singular": "der Mai ",
-    "Plural": "die Maie",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "Wednesday ",
-    "Singular": "der Mittwoch ",
-    "Plural": " die Mittwoche",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "month",
-    "Singular": "der Monat",
-    "Plural": "die Monate",
-    "Rules": "/ -e"
+    "Meaning": "Cake",
+    "Singular": "der Kuchen",
+    "Plural": "die Kuchen",
+    "Rules": "/--"
   },
   {
     "Meaning": "milk",
@@ -492,15 +48,99 @@
     "Rules": "/ -e"
   },
   {
-    "Meaning": "paper",
-    "Singular": "das Papier ",
-    "Plural": "die Papiere ",
+    "Meaning": "French Fries",
+    "Singular": "",
+    "Plural": "die Pommes frites",
+    "Rules": "No Singular"
+  },
+  {
+    "Meaning": "Juice",
+    "Singular": "der Saft | ",
+    "Plural": "die Säfte",
+    "Rules": "/ \"-e"
+  },
+  {
+    "Meaning": "Ham",
+    "Singular": " der Schinken ",
+    "Plural": "die Schinken",
+    "Rules": "/--"
+  },
+  {
+    "Meaning": "Water",
+    "Singular": "das Wasser ",
+    "Plural": "die Wässer ",
+    "Rules": "/-\"- "
+  },
+  {
+    "Meaning": "Banana",
+    "Singular": " die Banane ",
+    "Plural": "die Bananen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "buns/roll",
+    "Singular": "das Brötchen ",
+    "Plural": "die Brötchen",
+    "Rules": "/--"
+  },
+  {
+    "Meaning": "Thirsty",
+    "Singular": "der Durst ",
+    "Plural": "",
+    "Rules": "No Plural"
+  },
+  {
+    "Meaning": "Flask",
+    "Singular": "die Flasche",
+    "Plural": "die Flaschen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "drink",
+    "Singular": "das Getränk",
+    "Plural": "die Getränke",
     "Rules": "/ -e"
   },
   {
-    "Meaning": "leg",
-    "Singular": "das Bein",
-    "Plural": "die Beine",
+    "Meaning": "Coffee",
+    "Singular": "der Kaffee ",
+    "Plural": "die Kaffees ",
+    "Rules": "/ -s"
+  },
+  {
+    "Meaning": "Food / Gorcery",
+    "Singular": "das Lebensmittel ",
+    "Plural": "die Lebensmittel",
+    "Rules": "/--"
+  },
+  {
+    "Meaning": "Fruit",
+    "Singular": "das Obst",
+    "Plural": "always Singular",
+    "Rules": "No Plural"
+  },
+  {
+    "Meaning": "Bill / Invoice",
+    "Singular": "die Rechnung ",
+    "Plural": "die Rechnungen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Cream",
+    "Singular": " die Sahne",
+    "Plural": "",
+    "Rules": "No Plural"
+  },
+  {
+    "Meaning": "Menu / restaurant menu",
+    "Singular": " die Speisekarte ",
+    "Plural": "die Speisekarten",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Wine",
+    "Singular": "der Wein  ",
+    "Plural": "die Weine",
     "Rules": "/ -e"
   },
   {
@@ -510,381 +150,63 @@
     "Rules": "/ -e"
   },
   {
-    "Meaning": "bread",
-    "Singular": "das Brot",
-    "Plural": "die Brote",
+    "Meaning": "Butter",
+    "Singular": "die Butter",
+    "Plural": " die Buttern ",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Egg",
+    "Singular": "das Ei",
+    "Plural": "die Eier",
+    "Rules": "/ -er "
+  },
+  {
+    "Meaning": "Meat",
+    "Singular": "das Fleisch ",
+    "Plural": "",
+    "Rules": "No Plural"
+  },
+  {
+    "Meaning": "Glass",
+    "Singular": "das Glas",
+    "Plural": "die Gläser",
+    "Rules": "/ \"-er "
+  },
+  {
+    "Meaning": "Potato",
+    "Singular": " die Kartoffel ",
+    "Plural": "die Kartoffeln",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Favorite Food",
+    "Singular": " das Lieblingsessen ",
+    "Plural": "die Lieblingsessen",
+    "Rules": "/--"
+  },
+  {
+    "Meaning": "Rice",
+    "Singular": "das Reis  ",
+    "Plural": "die Reiser",
+    "Rules": "/ -er "
+  },
+  {
+    "Meaning": "Salad",
+    "Singular": " der Salat | ",
+    "Plural": "die Salate",
     "Rules": "/ -e"
   },
   {
-    "Meaning": "Gift",
-    "Singular": "das Geschenk",
-    "Plural": "die Geschenke",
-    "Rules": "/ -e"
+    "Meaning": "Tea",
+    "Singular": "   der Tee ",
+    "Plural": "die Tees",
+    "Rules": "/ -s"
   },
   {
-    "Meaning": "Haar",
-    "Singular": "das Haar",
-    "Plural": "die Haare",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "Boat",
-    "Singular": "das Boot",
-    "Plural": "die Boote",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "Metal",
-    "Singular": "das Metall",
-    "Plural": "die Metalle",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "Year",
-    "Singular": "das Jahr",
-    "Plural": "die Jahre",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "Experiment",
-    "Singular": "das Experiment",
-    "Plural": "die Experimente",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "dictation",
-    "Singular": "das Diktat",
-    "Plural": "die Diktate",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "argument",
-    "Singular": "das Argument",
-    "Plural": "die Argumente",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "Shelves",
-    "Singular": "das Regal",
-    "Plural": "die Regale",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "bidding",
-    "Singular": "das Angebot ",
-    "Plural": "die Angebote",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "document",
-    "Singular": "das Dokument ",
-    "Plural": " die Dokumente",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "backdrop",
-    "Singular": "das Prospekt  ",
-    "Plural": "die Prospekte",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "drink",
-    "Singular": "das Getränk",
-    "Plural": "die Getränke",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "Problem",
-    "Singular": "das Problem ",
-    "Plural": "die Probleme",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "Result",
-    "Singular": "das Ergebnis ",
-    "Plural": "die Ergebnisse",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "pet/animal",
-    "Singular": "das Tier",
-    "Plural": "die Tiere",
-    "Rules": "/ -e"
-  },
-  {
-    "Meaning": "youngster/offspring",
-    "Singular": "der Junge",
-    "Plural": "die Jungen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Student",
-    "Singular": "der Student",
-    "Plural": "die Studenten",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "German",
-    "Singular": "der Deutsche",
-    "Plural": "die Deutschen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "cop/officer",
-    "Singular": "der Polizist ",
-    "Plural": "die Polizisten",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Intern",
-    "Singular": "der Praktikant",
-    "Plural": " die Praktikanten",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Neighbour",
-    "Singular": "der Nachbar",
-    "Plural": "die Nachbarn",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Colleague",
-    "Singular": "der Kollege",
-    "Plural": "die Kollegen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "hose",
-    "Singular": "die Hose ",
-    "Plural": "die Hosen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "music",
-    "Singular": "die Musik ",
-    "Plural": "die Musiken",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "nature",
-    "Singular": "die Natur",
-    "Plural": " die Naturen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "butchery",
-    "Singular": "die Metzgerei",
-    "Plural": "die Metzgereien",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "packet",
-    "Singular": "die Packung ",
-    "Plural": "die Packungen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Information",
-    "Singular": "die Information ",
-    "Plural": "die Informationen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Police",
-    "Singular": " die Polizei ",
-    "Plural": "die Polizeien",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Color",
-    "Singular": "die Farbe",
-    "Plural": "die Farben",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "professional school",
-    "Singular": "die Berufsschule",
-    "Plural": " die Berufsschulen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "school",
-    "Singular": "die Schule",
-    "Plural": "die Schulen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Hour",
-    "Singular": "die Stunde",
-    "Plural": "die Stunden",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Soup",
-    "Singular": " die Suppe ",
-    "Plural": "die Suppen ",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Flask",
-    "Singular": "die Flasche",
-    "Plural": "die Flaschen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Professor",
-    "Singular": "die Professorin",
-    "Plural": "die Professorinnen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Female Student",
-    "Singular": "die Studentin",
-    "Plural": "die Studentinnen ",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "colleague",
-    "Singular": "die Kollegin",
-    "Plural": "die Kolleginnen ",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "exercise",
-    "Singular": "die Übung",
-    "Plural": "die Übungen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "question",
-    "Singular": "die Frage ",
-    "Plural": "die Fragen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "work",
-    "Singular": "die Arbeit",
-    "Plural": "die Arbeiten",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Factory",
-    "Singular": "die Fabrik",
-    "Plural": "die Fabriken",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Family",
-    "Singular": "die Familie",
-    "Plural": "die Familien",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Repair",
-    "Singular": "die Reparatur",
-    "Plural": "die Reparaturen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Female Student",
-    "Singular": "die Studentin",
-    "Plural": "die Studentinnen ",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "time",
-    "Singular": "die Zeit",
-    "Plural": "m",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Things",
-    "Singular": "die Sache",
-    "Plural": "die Sachen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Door",
-    "Singular": "die Tür",
-    "Plural": "die Türen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "",
-    "Singular": "die Frau",
-    "Plural": "die Frauen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Voice",
-    "Singular": "die Stimme",
-    "Plural": "die Stimmen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "World",
-    "Singular": "die Welt",
-    "Plural": "die Welten",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "secretary",
-    "Singular": "die Sekretärin",
-    "Plural": "die Sekretärinnen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "directress",
-    "Singular": "die Direktorin ",
-    "Plural": "die Direktorinnen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Cat",
-    "Singular": "die Katze ",
-    "Plural": "die Katzen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Sun",
-    "Singular": "die Sonne",
-    "Plural": "die Sonnen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "kitchen",
-    "Singular": "die Küche",
-    "Plural": " die Küchen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "",
-    "Singular": "die Waschmaschine",
-    "Plural": "die Waschmaschinen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Girl",
-    "Singular": "die Freundin ",
-    "Plural": "die Freundinnen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Cup",
-    "Singular": "die Tasse",
-    "Plural": "die Tassen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Tomato",
-    "Singular": "die Tomate",
-    "Plural": " die Tomaten",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Onion",
-    "Singular": "die Zwiebel",
-    "Plural": "die Zwiebeln",
+    "Meaning": "Cigarette",
+    "Singular": "die Zigarette ",
+    "Plural": " die Zigaretten",
     "Rules": "/ -(e)n"
   },
   {
@@ -894,105 +216,135 @@
     "Rules": "/ -(e)n"
   },
   {
-    "Meaning": "Library",
-    "Singular": "die Bibliothek",
-    "Plural": "die Bibliotheken",
+    "Meaning": "Cafe",
+    "Singular": " das Café ",
+    "Plural": "die Cafés",
+    "Rules": "/ -s"
+  },
+  {
+    "Meaning": "Food",
+    "Singular": "das Essen ",
+    "Plural": " die Essen",
+    "Rules": "/--"
+  },
+  {
+    "Meaning": "Breakfast",
+    "Singular": " das Frühstück ",
+    "Plural": "die Frühstücke",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Chicken",
+    "Singular": "das Hähnchen ",
+    "Plural": "die Hähnchen",
+    "Rules": "/--"
+  },
+  {
+    "Meaning": "Kiosk",
+    "Singular": "der Kiosk ",
+    "Plural": "die Kioske",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Local",
+    "Singular": "das Lokal ",
+    "Plural": " die Lokale",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "oil",
+    "Singular": "das Öl ",
+    "Plural": "die Öle ",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Restaurant ",
+    "Singular": " das Restaurant ",
+    "Plural": "die Restaurants",
+    "Rules": "/ -s "
+  },
+  {
+    "Meaning": "Salt",
+    "Singular": "  das Salz ",
+    "Plural": "die Salze ",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Tomato",
+    "Singular": "die Tomate",
+    "Plural": " die Tomaten",
     "Rules": "/ -(e)n"
   },
   {
-    "Meaning": "University",
-    "Singular": "die Universität ",
-    "Plural": "die Universitäten",
+    "Meaning": "Sugar",
+    "Singular": " der Zucker ",
+    "Plural": "die Zucker ",
+    "Rules": "/--"
+  },
+  {
+    "Meaning": "Address",
+    "Singular": "die Adresse ",
+    "Plural": "die Adressen",
     "Rules": "/ -(e)n"
   },
   {
-    "Meaning": "Opinion",
-    "Singular": "die Meinung",
-    "Plural": " die Meinungen",
+    "Meaning": "balcony",
+    "Singular": " der Balkon ",
+    "Plural": "die Balkone/Balkons",
+    "Rules": "/ -e, / -s"
+  },
+  {
+    "Meaning": "Double Room",
+    "Singular": " das Doppelzimmer ",
+    "Plural": "die Doppelzimmer",
+    "Rules": "/--"
+  },
+  {
+    "Meaning": "Corner",
+    "Singular": "  die Ecke ",
+    "Plural": "die Ecken",
     "Rules": "/ -(e)n"
   },
   {
-    "Meaning": "Lamp",
-    "Singular": "die Lampe ",
-    "Plural": "die Lampen",
+    "Meaning": "native / home",
+    "Singular": "die Heimat",
+    "Plural": "die Heimaten",
     "Rules": "/ -(e)n"
   },
   {
-    "Meaning": "cucumber",
-    "Singular": "die Gurke ",
-    "Plural": "die Gurken",
+    "Meaning": "Fridge",
+    "Singular": "der Kühlschrank",
+    "Plural": "die Kühlschränke",
+    "Rules": "/-\"- "
+  },
+  {
+    "Meaning": "Furniture",
+    "Singular": "Always Plural",
+    "Plural": "die Möbel",
+    "Rules": "No Singular"
+  },
+  {
+    "Meaning": "Cupboard",
+    "Singular": " der Schrank ",
+    "Plural": "die Schränke",
+    "Rules": "\"/ \"\"-e\""
+  },
+  {
+    "Meaning": "Stock",
+    "Singular": "der Stock ",
+    "Plural": "die Stöcke",
+    "Rules": "\"/ \"\"-e\""
+  },
+  {
+    "Meaning": "Stairs",
+    "Singular": "die Treppe ",
+    "Plural": " die Treppen",
     "Rules": "/ -(e)n"
   },
   {
-    "Meaning": "Working Time",
-    "Singular": "die Arbeitszeit",
-    "Plural": "die Arbeitszeiten",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "NewsPape",
-    "Singular": " die Zeitung",
-    "Plural": "die Zeitungen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Meeting",
-    "Singular": " die Besprechung",
-    "Plural": "die Besprechungen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Folder",
-    "Singular": "die Mappe",
-    "Plural": "die Mappen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Document",
-    "Singular": "  die Unterlage",
-    "Plural": "die Unterlagen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Expectation",
-    "Singular": "die Erwartung",
-    "Plural": " die Erwartungen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Half",
-    "Singular": "  die Hälfte",
-    "Plural": "die Hälften",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Front door",
-    "Singular": "die Wohnungstür",
-    "Plural": " die Wohnungstüren",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Jacket/coat",
-    "Singular": "die Jacke",
-    "Plural": " die Jacken",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Vase",
-    "Singular": "die Vase ",
-    "Plural": "die Vasen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Flower",
-    "Singular": "die Blume ",
-    "Plural": "die Blumen",
-    "Rules": "/ -(e)n"
-  },
-  {
-    "Meaning": "Apartment",
-    "Singular": "die Wohnung",
-    "Plural": "die Wohnungen",
+    "Meaning": "Advert",
+    "Singular": "die Anzeige ",
+    "Plural": "die Anzeigen",
     "Rules": "/ -(e)n"
   },
   {
@@ -1002,178 +354,22 @@
     "Rules": "/ -(e)n"
   },
   {
-    "Meaning": "Ear",
-    "Singular": " das Ohr",
-    "Plural": "  die Ohren",
-    "Rules": "/ -(e)n"
+    "Meaning": "Single Bedroom",
+    "Singular": "das Einzelzimmer ",
+    "Plural": "die Einzelzimmer",
+    "Rules": "/--"
   },
   {
-    "Meaning": "Eye",
-    "Singular": "das Auge",
-    "Plural": "die Augen",
-    "Rules": "/ -(e)n"
+    "Meaning": "Fire",
+    "Singular": "  das Feuer ",
+    "Plural": " die Feuer",
+    "Rules": "/--"
   },
   {
-    "Meaning": "",
-    "Singular": "der Mann",
-    "Plural": "die Männer",
-    "Rules": "/ \"-er "
-  },
-  {
-    "Meaning": "Forest",
-    "Singular": "der Wald",
-    "Plural": "die Wälder",
-    "Rules": "/ \"-er "
-  },
-  {
-    "Meaning": "",
-    "Singular": "das Wort",
-    "Plural": "die Wörter",
-    "Rules": "/ \"-er "
-  },
-  {
-    "Meaning": "",
-    "Singular": "",
-    "Plural": "",
-    "Rules": "/ \"-er "
-  },
-  {
-    "Meaning": "Interrogative",
-    "Singular": "das Fragewort",
-    "Plural": "die Fragewörter",
-    "Rules": "/ \"-er "
-  },
-  {
-    "Meaning": "House",
-    "Singular": "das Haus ",
-    "Plural": "die Häuser",
-    "Rules": "/ \"-er "
-  },
-  {
-    "Meaning": "Bicycle",
-    "Singular": "das Fahrrad ",
-    "Plural": "die Fahrräder",
-    "Rules": "/ \"-er "
-  },
-  {
-    "Meaning": "Book",
-    "Singular": "das Buch",
-    "Plural": "die Bücher",
-    "Rules": "/ \"-er "
-  },
-  {
-    "Meaning": "Village",
-    "Singular": "das Dorf",
-    "Plural": "die Dörfer",
-    "Rules": "/ \"-er "
-  },
-  {
-    "Meaning": "Glass",
-    "Singular": "das Glas",
-    "Plural": "die Gläser",
-    "Rules": "/ \"-er "
-  },
-  {
-    "Meaning": "House",
-    "Singular": "das Haus ",
-    "Plural": "die Häuser",
-    "Rules": "/ \"-er "
-  },
-  {
-    "Meaning": "Hole",
-    "Singular": "Das Loch",
-    "Plural": "die Löcher",
-    "Rules": "/ \"-er "
-  },
-  {
-    "Meaning": "Grass",
-    "Singular": "das Gras",
-    "Plural": "die Gräser",
-    "Rules": "/ \"-er "
-  },
-  {
-    "Meaning": "Leaf",
-    "Singular": "das Blatt",
-    "Plural": "die Blätter",
-    "Rules": "/ \"-er "
-  },
-  {
-    "Meaning": "Wheel",
-    "Singular": "das Rad",
-    "Plural": "die Räder",
-    "Rules": "/ \"-er "
-  },
-  {
-    "Meaning": "Roof",
-    "Singular": "das Dach",
-    "Plural": "die Dächer",
-    "Rules": "/ \"-er "
-  },
-  {
-    "Meaning": "Sheet",
-    "Singular": "das Blatt",
-    "Plural": "die Blätter",
-    "Rules": "/ \"-er "
-  },
-  {
-    "Meaning": "Lamb",
-    "Singular": "das Lamm",
-    "Plural": "die Lämmer",
-    "Rules": "/ \"-er "
-  },
-  {
-    "Meaning": "Bath",
-    "Singular": "das Bad",
-    "Plural": "die Bäder",
-    "Rules": "/ \"-er "
-  },
-  {
-    "Meaning": "Store",
-    "Singular": "das Kaufhaus",
-    "Plural": "die Kaufhäuser",
-    "Rules": "/ \"-er "
-  },
-  {
-    "Meaning": "Password",
-    "Singular": "das Passwort ",
-    "Plural": "die Passwörter",
-    "Rules": "/ \"-er "
-  },
-  {
-    "Meaning": "Dictionary",
-    "Singular": "das Wörterbuch",
-    "Plural": "die Wörterbücher",
-    "Rules": "/ \"-er "
-  },
-  {
-    "Meaning": "rural",
-    "Singular": "das Land",
-    "Plural": "die Länder",
-    "Rules": "/ \"-er "
-  },
-  {
-    "Meaning": "",
-    "Singular": "das Kind",
-    "Plural": "die Kinder",
-    "Rules": "/ -er "
-  },
-  {
-    "Meaning": "Picture/image",
-    "Singular": "das Bild",
-    "Plural": "die Bilder",
-    "Rules": "/ -er "
-  },
-  {
-    "Meaning": "Egg",
-    "Singular": "das Ei",
-    "Plural": "die Eier",
-    "Rules": "/ -er "
-  },
-  {
-    "Meaning": "Money",
-    "Singular": "das Geld",
-    "Plural": "die Gelder",
-    "Rules": "/ -er "
+    "Meaning": "Stove",
+    "Singular": "  der Herd ",
+    "Plural": "die Herde",
+    "Rules": "/ -e"
   },
   {
     "Meaning": "Light",
@@ -1182,82 +378,46 @@
     "Rules": "/ -er "
   },
   {
-    "Meaning": "Face",
-    "Singular": "das Gesicht",
-    "Plural": "die Gesichter",
+    "Meaning": "Place/scene",
+    "Singular": "der Ort",
+    "Plural": "die Orte",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Sea",
+    "Singular": "er See ",
+    "Plural": "die Seen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Street",
+    "Singular": "die Strasse",
+    "Plural": "die Strassen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Clock",
+    "Singular": "die Uhr ",
+    "Plural": "die Uhren",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Apartment",
+    "Singular": "das Apartment ",
+    "Plural": "die Apartments",
+    "Rules": "/ -s"
+  },
+  {
+    "Meaning": "Picture/image",
+    "Singular": "das Bild",
+    "Plural": "die Bilder",
     "Rules": "/ -er "
   },
   {
-    "Meaning": "Ghost",
-    "Singular": "Das Geist",
-    "Plural": "die Geister",
-    "Rules": "/ -er "
-  },
-  {
-    "Meaning": "Infant",
-    "Singular": "das Kleinkind",
-    "Plural": "die Kleinkinder",
-    "Rules": "/ -er "
-  },
-  {
-    "Meaning": "Eyelid",
-    "Singular": "das Augenlid",
-    "Plural": "die Augenlider",
-    "Rules": "/ -er "
-  },
-  {
-    "Meaning": "Nest",
-    "Singular": "das Nest",
-    "Plural": "die Nester",
-    "Rules": "/ -er "
-  },
-  {
-    "Meaning": "Song",
-    "Singular": "das Leid",
-    "Plural": "die Leider",
-    "Rules": "/ -er "
-  },
-  {
-    "Meaning": "Sing",
-    "Singular": "das Schild",
-    "Plural": "die Schilder",
-    "Rules": "/ -er "
-  },
-  {
-    "Meaning": "Overcoat",
-    "Singular": "der Mantel",
-    "Plural": "die Mäntel ",
-    "Rules": "/-\"- "
-  },
-  {
-    "Meaning": "Brother",
-    "Singular": "der Bruder",
-    "Plural": "die Brüder",
-    "Rules": "/-\"- "
-  },
-  {
-    "Meaning": "Father",
-    "Singular": "der vater",
-    "Plural": "die väter",
-    "Rules": "/-\"- "
-  },
-  {
-    "Meaning": "Ground",
-    "Singular": "der Boden ",
-    "Plural": "die Böden",
-    "Rules": "/-\"- "
-  },
-  {
-    "Meaning": "Bird",
-    "Singular": "der Vogel",
-    "Plural": "die Vögel",
-    "Rules": "/-\"- "
-  },
-  {
-    "Meaning": "Fridge",
-    "Singular": "der Kühlschrank",
-    "Plural": "die Kühlschränke",
-    "Rules": "/-\"- "
+    "Meaning": "Village",
+    "Singular": "das Dorf",
+    "Plural": "die Dörfer",
+    "Rules": "/ \"-er "
   },
   {
     "Meaning": "Garden",
@@ -1266,124 +426,226 @@
     "Rules": "/-\"- "
   },
   {
-    "Meaning": "Stomach",
-    "Singular": "Der Magen",
-    "Plural": "die Mägen",
-    "Rules": "/-\"- "
+    "Meaning": "Dog",
+    "Singular": "der Hund",
+    "Plural": "die Hunde",
+    "Rules": "/ -e"
   },
   {
-    "Meaning": "Husband",
-    "Singular": "der Ehemann",
-    "Plural": "die Ehemänner",
-    "Rules": "/-\"- "
+    "Meaning": "Sea",
+    "Singular": " das Meer ",
+    "Plural": " die Meere",
+    "Rules": "/ -e"
   },
   {
-    "Meaning": "grandfather",
-    "Singular": "der Großvater",
-    "Plural": "die Großväter",
-    "Rules": "/-\"- "
+    "Meaning": "space",
+    "Singular": "der Raum",
+    "Plural": "die Räume",
+    "Rules": "/ \"-e"
   },
   {
-    "Meaning": "Apple",
-    "Singular": "der Apfel ",
-    "Plural": "die Äpfel",
-    "Rules": "/-\"- "
+    "Meaning": "Sofa",
+    "Singular": "das Sofa ",
+    "Plural": " die Sofas",
+    "Rules": "/ -s"
   },
   {
-    "Meaning": "Mother",
-    "Singular": "die Mutter",
-    "Plural": "die Mütter",
-    "Rules": "/-\"- "
+    "Meaning": "table/desk",
+    "Singular": "der Tisch",
+    "Plural": "die Tische",
+    "Rules": "/ -e"
   },
   {
-    "Meaning": "Daughter",
-    "Singular": "die Tochter",
-    "Plural": "die Töchter",
-    "Rules": "/-\"- "
+    "Meaning": "Flat",
+    "Singular": "die Wohnung ",
+    "Plural": "die Wohnungen",
+    "Rules": "/ -(e)n"
   },
   {
-    "Meaning": "mineral water",
-    "Singular": "das Mineralwasser ",
-    "Plural": "die Mineralwässer",
-    "Rules": "/-\"- "
+    "Meaning": "Bathroom",
+    "Singular": "das Bad ",
+    "Plural": "die Bäder",
+    "Rules": "\"/ \"\"-er \""
   },
   {
-    "Meaning": "Smile",
-    "Singular": "das Lächeln",
-    "Plural": "die Lächeln",
-    "Rules": "/-\"- "
+    "Meaning": "Flower",
+    "Singular": "die Blume ",
+    "Plural": "die Blumen",
+    "Rules": "/ -(e)n"
   },
   {
-    "Meaning": "my / our father",
-    "Singular": "der Papa",
-    "Plural": "die Papas",
-    "Rules": "/ -s "
+    "Meaning": "Shower",
+    "Singular": "die Dusche ",
+    "Plural": "die Duschen",
+    "Rules": "/ -(e)n"
   },
   {
-    "Meaning": "Set",
-    "Singular": "der Service",
-    "Plural": "Die Services",
-    "Rules": "/ -s "
+    "Meaning": "House",
+    "Singular": "das Haus ",
+    "Plural": "die Häuser",
+    "Rules": "/ \"-er "
   },
   {
-    "Meaning": "Tea",
-    "Singular": "der Tee",
-    "Plural": "die Tees",
-    "Rules": "/ -s "
+    "Meaning": "kitchen",
+    "Singular": "die Küche",
+    "Plural": " die Küchen",
+    "Rules": "/ -(e)n"
   },
   {
-    "Meaning": "Pool",
-    "Singular": "der Pool",
-    "Plural": "die Pools",
-    "Rules": "/ -s "
+    "Meaning": "Rent",
+    "Singular": "die Miete ",
+    "Plural": "die Mieten",
+    "Rules": "/ -(e)n"
   },
   {
-    "Meaning": "Club",
-    "Singular": "der Club",
-    "Plural": "die Clubs",
-    "Rules": "/ -s "
+    "Meaning": "keys/tool/code",
+    "Singular": " der Schlüssel ",
+    "Plural": "die Schlüssel",
+    "Rules": "/--"
   },
   {
-    "Meaning": "Chef",
-    "Singular": "der Chef ",
-    "Plural": "die Chefs",
-    "Rules": "/ -s "
+    "Meaning": "town/city/urban",
+    "Singular": "die Stadt ",
+    "Plural": "die Städte",
+    "Rules": "/ \"-e"
+  },
+  {
+    "Meaning": "Toilet",
+    "Singular": " die Toilette ",
+    "Plural": " die Toiletten",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "room/apartment",
+    "Singular": "das Zimmer",
+    "Plural": "die Zimmer",
+    "Rules": "/--"
+  },
+  {
+    "Meaning": "Showers",
+    "Singular": "die Dusche ",
+    "Plural": "die Duschen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "departure",
+    "Singular": "die Abfahrt ",
+    "Plural": "die Abfahrten",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Infromation",
+    "Singular": "die Auskunft ",
+    "Plural": "die Auskünfte ",
+    "Rules": "\"/ \"\"-e\""
+  },
+  {
+    "Meaning": "Freeway",
+    "Singular": "die Autobahn ",
+    "Plural": "die Autobahnen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Rail Station",
+    "Singular": " der Bahnhof ",
+    "Plural": " die Bahnhöfe",
+    "Rules": "\"/ \"\"-e\""
+  },
+  {
+    "Meaning": "luggage",
+    "Singular": "das Gepäck",
+    "Plural": "--------",
+    "Rules": "No Plural"
+  },
+  {
+    "Meaning": "Hostel",
+    "Singular": "e Jugendherberge ",
+    "Plural": "die Jugendherbergen",
+    "Rules": "/ -(e)n"
   },
   {
     "Meaning": "Tourist Agency",
     "Singular": "das Reisebüro",
     "Plural": "die Reisebüros",
-    "Rules": "/ -s "
+    "Rules": "/ -s"
+  },
+  {
+    "Meaning": "holiday",
+    "Singular": " der Urlaub ",
+    "Plural": "die Urlaube",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Arrival",
+    "Singular": "die Ankunft",
+    "Plural": "die Ankünfte",
+    "Rules": "\"/ \"\"-e\""
+  },
+  {
+    "Meaning": "Foreign Countries",
+    "Singular": " das Ausland ",
+    "Plural": "",
+    "Rules": "No Plural"
+  },
+  {
+    "Meaning": "Vendor",
+    "Singular": "der Automat ",
+    "Plural": "die Automaten",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Bus",
+    "Singular": "der Bus ",
+    "Plural": "die Busse",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Passport",
+    "Singular": "der Pass",
+    "Plural": "die Pässe",
+    "Rules": "\"/ \"\"-e\""
+  },
+  {
+    "Meaning": "Guidebook",
+    "Singular": "der Reiseführer ",
+    "Plural": " die Reiseführer",
+    "Rules": "/--"
+  },
+  {
+    "Meaning": "Suitcase",
+    "Singular": " der Koffer ",
+    "Plural": "die Koffer",
+    "Rules": "/--"
+  },
+  {
+    "Meaning": "Swimming bath",
+    "Singular": "das Schwimmbad",
+    "Plural": "die Schwimmbäder",
+    "Rules": "\"/-\"\"- \""
+  },
+  {
+    "Meaning": "Ship",
+    "Singular": " das Schiff",
+    "Plural": "die Schiffe",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Connection/port/ terminal",
+    "Singular": "der Anschluss ",
+    "Plural": "die Anschlüsse",
+    "Rules": "\"/ \"\"-e\""
   },
   {
     "Meaning": "Auto",
     "Singular": "das Auto",
     "Plural": "das Autos",
-    "Rules": "/ -s "
+    "Rules": "/ -s"
   },
   {
-    "Meaning": "office",
-    "Singular": "das Büro",
-    "Plural": "das Büros",
-    "Rules": "/ -s "
-  },
-  {
-    "Meaning": "Radio",
-    "Singular": "das Radio",
-    "Plural": "das Radios",
-    "Rules": "/ -s "
-  },
-  {
-    "Meaning": "",
-    "Singular": "das Bit",
-    "Plural": "die Bits",
-    "Rules": "/ -s "
-  },
-  {
-    "Meaning": "College",
-    "Singular": "das College",
-    "Plural": "die Colleges",
-    "Rules": "/ -s "
+    "Meaning": "Ticket",
+    "Singular": "die Fahrkarte ",
+    "Plural": "die Fahrkarten",
+    "Rules": "/ -(e)n"
   },
   {
     "Meaning": "Hotel",
@@ -1392,64 +654,88 @@
     "Rules": "/ -s "
   },
   {
-    "Meaning": "",
-    "Singular": "das Kino",
-    "Plural": "die Kinos",
-    "Rules": "/ -s "
+    "Meaning": "Bag",
+    "Singular": "die Tasche ",
+    "Plural": "die Taschen",
+    "Rules": "/ -(e)n"
   },
   {
-    "Meaning": "Team",
-    "Singular": "das Team",
-    "Plural": "die Teams",
-    "Rules": "/ -s "
+    "Meaning": "Reception",
+    "Singular": " die Rezeption ",
+    "Plural": "die Rezeptionen",
+    "Rules": "/ -(e)n"
   },
   {
-    "Meaning": "Sofa",
-    "Singular": "das Sofa ",
-    "Plural": "die Sofas",
-    "Rules": "/ -s "
+    "Meaning": "Overnighter",
+    "Singular": "  die Übernachtung ",
+    "Plural": "die Übernachtungen",
+    "Rules": "/ -(e)n"
   },
   {
-    "Meaning": "Taxi",
-    "Singular": "das Taxi",
-    "Plural": "die Taxis",
-    "Rules": "/ -s "
+    "Meaning": "Trip",
+    "Singular": " der Ausflug ",
+    "Plural": "die Ausflüge",
+    "Rules": "\"/ \"\"-e\""
   },
   {
-    "Meaning": "Photo",
-    "Singular": "das Foto",
-    "Plural": "die Fotos",
-    "Rules": "/ -s "
+    "Meaning": "Identification",
+    "Singular": "der Ausweis",
+    "Plural": "die Ausweise",
+    "Rules": "/ -e"
   },
   {
-    "Meaning": "cellular telephone",
-    "Singular": "das Handy ",
-    "Plural": "die Handys",
-    "Rules": "/ -s "
+    "Meaning": "Airport",
+    "Singular": "der Flughafen ",
+    "Plural": "die Flughäfen",
+    "Rules": "\"/-\"\"- \""
   },
   {
-    "Meaning": "Baby",
-    "Singular": "das Baby",
-    "Plural": "die Babys",
-    "Rules": "/ -s "
+    "Meaning": "Plane",
+    "Singular": "das Flugzeug",
+    "Plural": "die Flugzeuge",
+    "Rules": "/ -e"
   },
   {
-    "Meaning": "Mango",
-    "Singular": "das Mango",
-    "Plural": "die Mangos",
-    "Rules": "/ -s "
+    "Meaning": "Information",
+    "Singular": "die Information ",
+    "Plural": "die Informationen",
+    "Rules": "/ -(e)n"
   },
   {
-    "Meaning": "Kiwi",
-    "Singular": "das Kiwi",
-    "Plural": "die Kiwis",
-    "Rules": "/ -s "
+    "Meaning": "rural",
+    "Singular": "das Land",
+    "Plural": "die Länder",
+    "Rules": "/ \"-er "
   },
   {
-    "Meaning": "Notebook",
-    "Singular": "das Notebook ",
-    "Plural": "die Notebooks",
-    "Rules": "/ -s "
+    "Meaning": "Travel",
+    "Singular": "die Reise ",
+    "Plural": "die Reisen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Curiosity",
+    "Singular": "die Sehenswürdigkeit ",
+    "Plural": "die Sehenswürdigkeiten",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Female Student",
+    "Singular": "die Studentin",
+    "Plural": "die Studentinnen ",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "HouseWife",
+    "Singular": "die Hausfrau",
+    "Plural": " die Hausfrauen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Pupil",
+    "Singular": " die Schülerin ",
+    "Plural": "die Schülerinnen",
+    "Rules": "/ -(e)n"
   },
   {
     "Meaning": "Hobby",
@@ -1458,58 +744,100 @@
     "Rules": "/ -s "
   },
   {
-    "Meaning": "Museum",
-    "Singular": "das Museum",
-    "Plural": "die Museen",
-    "Rules": ""
+    "Meaning": "Football",
+    "Singular": "der Fußball ",
+    "Plural": "die Fußbälle",
+    "Rules": "\"/ \"\"-e\""
   },
   {
-    "Meaning": "adventure",
-    "Singular": "das Risiko",
-    "Plural": "die Risiken",
-    "Rules": ""
+    "Meaning": "Dude",
+    "Singular": "  das Alter",
+    "Plural": " die Alter ",
+    "Rules": "/--"
   },
   {
-    "Meaning": "Veggitable",
-    "Singular": "das Gemüse",
-    "Plural": "always Singular",
-    "Rules": ""
+    "Meaning": "Example",
+    "Singular": "das Beispiel",
+    "Plural": "die Beispiele",
+    "Rules": "/ -e"
   },
   {
-    "Meaning": "Fruit",
-    "Singular": "das Obst",
-    "Plural": "always Singular",
-    "Rules": ""
+    "Meaning": "Sister",
+    "Singular": " die Schwester ",
+    "Plural": "die Schwestern",
+    "Rules": "/ -(e)n"
   },
   {
-    "Meaning": "Fortune",
-    "Singular": "das Glück",
-    "Plural": "always Singular",
-    "Rules": ""
+    "Meaning": "Mister",
+    "Singular": " der Herr",
+    "Plural": " die Herren",
+    "Rules": "/ -(e)n"
   },
   {
-    "Meaning": "Traffic",
-    "Singular": "der Verkehr",
-    "Plural": "always Singular",
-    "Rules": ""
+    "Meaning": "Invitation",
+    "Singular": "die Einladung",
+    "Plural": " die Einladungen",
+    "Rules": "/ -(e)n"
   },
   {
-    "Meaning": "Health",
-    "Singular": "die Gesundheit",
-    "Plural": "always Singular",
-    "Rules": ""
+    "Meaning": "Family",
+    "Singular": "die Familie",
+    "Plural": "die Familien",
+    "Rules": "/ -(e)n"
   },
   {
-    "Meaning": "optimism",
-    "Singular": "  der Optimismus",
-    "Plural": "always Singular",
-    "Rules": ""
+    "Meaning": "Husband",
+    "Singular": "der Mann",
+    "Plural": "die Männer",
+    "Rules": "/ \"-er "
   },
   {
-    "Meaning": "Internet",
-    "Singular": "das Internet",
-    "Plural": "always Singular",
-    "Rules": ""
+    "Meaning": "grandfather",
+    "Singular": "der Großvater",
+    "Plural": "die Großväter",
+    "Rules": "/-\"- "
+  },
+  {
+    "Meaning": "Young",
+    "Singular": "  der Jugendliche",
+    "Plural": " die Jugendlichen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Father",
+    "Singular": "der vater",
+    "Plural": "die väter",
+    "Rules": "/-\"- "
+  },
+  {
+    "Meaning": "party",
+    "Singular": "die Party ",
+    "Plural": "die Partys",
+    "Rules": "/ -s"
+  },
+  {
+    "Meaning": "Answer",
+    "Singular": "die Antwort ",
+    "Plural": " die Antworten",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Acquaintance",
+    "Singular": "  die Bekannte ",
+    "Plural": "die Bekannten",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Boss",
+    "Singular": "der Chef ",
+    "Plural": "die Chefs",
+    "Rules": "/ -s "
+  },
+  {
+    "Meaning": "Thanks",
+    "Singular": "der Dank",
+    "Plural": "---",
+    "Rules": "No Plural"
   },
   {
     "Meaning": "",
@@ -1519,20 +847,998 @@
   },
   {
     "Meaning": "",
-    "Singular": "Always Plural",
-    "Plural": "die Geschwister(Siblings)",
-    "Rules": ""
+    "Singular": "die Frau",
+    "Plural": "die Frauen",
+    "Rules": "/ -(e)n"
   },
   {
-    "Meaning": "",
+    "Meaning": "Friend",
+    "Singular": "der Freund ",
+    "Plural": "die Freunde",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "youngster/offspring",
+    "Singular": "der Junge",
+    "Plural": "die Jungen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "People",
+    "Singular": "   - | ",
+    "Plural": "die Leute",
+    "Rules": "No Singular"
+  },
+  {
+    "Meaning": "Grandpa",
+    "Singular": " der Opa ",
+    "Plural": "die Opas",
+    "Rules": "/ -s"
+  },
+  {
+    "Meaning": "son",
+    "Singular": "der Sohn",
+    "Plural": "die Söhne",
+    "Rules": "/ \"-e"
+  },
+  {
+    "Meaning": "work",
+    "Singular": "die Arbeit",
+    "Plural": "die Arbeiten",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "occupation",
+    "Singular": "der Beruf ",
+    "Plural": "die Berufe",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Female Boss",
+    "Singular": "  die Chefin",
+    "Plural": " die Chefinnen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Husband",
+    "Singular": "der Ehemann",
+    "Plural": "die Ehemänner",
+    "Rules": "/-\"- "
+  },
+  {
+    "Meaning": "Sorry",
+    "Singular": "die Entschuldigung ",
+    "Plural": "die Entschuldigungen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Girl",
+    "Singular": "die Freundin ",
+    "Plural": "die Freundinnen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Regards",
+    "Singular": "der Gruß ",
+    "Plural": "die Grüße",
+    "Rules": "\"/ \"\"-e\""
+  },
+  {
+    "Meaning": "girl",
+    "Singular": "das Mädchen",
+    "Plural": "die Mädchen",
+    "Rules": "/--"
+  },
+  {
+    "Meaning": "Jeez!",
+    "Singular": "  der Mensch ",
+    "Plural": " die Menschen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "partner",
+    "Singular": "der Partner",
+    "Plural": "die Partner",
+    "Rules": "/--"
+  },
+  {
+    "Meaning": "Daughter",
+    "Singular": "die Tochter",
+    "Plural": "die Töchter",
+    "Rules": "/-\"- "
+  },
+  {
+    "Meaning": "Baby",
+    "Singular": "das Baby",
+    "Plural": "die Babys",
+    "Rules": "/ -s "
+  },
+  {
+    "Meaning": "Brother",
+    "Singular": "der Bruder",
+    "Plural": "die Brüder",
+    "Rules": "/-\"- "
+  },
+  {
+    "Meaning": "Lady",
+    "Singular": "  die Dame ",
+    "Plural": " die Damen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Wife",
+    "Singular": "die Ehefrau ",
+    "Plural": "die Ehefrauen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Adults",
+    "Singular": "der Erwachsene",
+    "Plural": "die Erwachsenen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Siblings",
     "Singular": "Always Plural",
-    "Plural": "die Möbel(Furniture)",
-    "Rules": ""
+    "Plural": "die Geschwister",
+    "Rules": "No Singular"
+  },
+  {
+    "Meaning": "Wedding",
+    "Singular": " die Hochzeit ",
+    "Plural": " die Hochzeiten",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Child",
+    "Singular": "das Kind",
+    "Plural": "die Kinder",
+    "Rules": "/ -er "
+  },
+  {
+    "Meaning": "Mother",
+    "Singular": "die Mutter",
+    "Plural": "die Mütter",
+    "Rules": "/-\"- "
+  },
+  {
+    "Meaning": "Partner",
+    "Singular": "die Partnerin ",
+    "Plural": "die Partnerinnen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Sender",
+    "Singular": "der Absender ",
+    "Plural": "die Absender",
+    "Rules": "/--"
+  },
+  {
+    "Meaning": "Letter",
+    "Singular": "der Buchstabe ",
+    "Plural": "die Buchstaben",
+    "Rules": "/ -(e)n"
   },
   {
     "Meaning": "Date",
-    "Singular": " das Datum  ",
+    "Singular": "das Datum",
     "Plural": "die Daten",
+    "Rules": "Abnormal"
+  },
+  {
+    "Meaning": "Form",
+    "Singular": " das Formular ",
+    "Plural": "die Formulare",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Birthplace",
+    "Singular": "der Geburtsort ",
+    "Plural": "die Geburtsorte",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Internet",
+    "Singular": "  das Internet",
+    "Plural": " | -",
+    "Rules": "No Plural"
+  },
+  {
+    "Meaning": "Number",
+    "Singular": "die Nummer ",
+    "Plural": "die Nummern",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Post",
+    "Singular": "der Post ",
+    "Plural": "die Posts",
+    "Rules": "/ -s"
+  },
+  {
+    "Meaning": "Signature",
+    "Singular": "die Unterschrift ",
+    "Plural": "die Unterschriften",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Bank",
+    "Singular": "   die Bank ",
+    "Plural": "die Banken",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Answer sheet",
+    "Singular": "   der Antwortbogen ",
+    "Plural": "die Antwortbogen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Photo",
+    "Singular": "das Foto",
+    "Plural": "die Fotos",
+    "Rules": "/ -s "
+  },
+  {
+    "Meaning": "Birthday",
+    "Singular": "der Geburtstag ",
+    "Plural": "die Geburtstage",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Card",
+    "Singular": " die Karte",
+    "Plural": " die Karten",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Paper",
+    "Singular": "das Papier ",
+    "Plural": "die Papiere",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Postcode",
+    "Singular": "die Postleitzahl ",
+    "Plural": "die Postleitzahlen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Tax",
+    "Singular": "der Zoll  ",
+    "Plural": "die Zölle",
+    "Rules": "\"/ \"\"-e\""
+  },
+  {
+    "Meaning": "Answer Phone ",
+    "Singular": "der Anrufbeantworter ",
+    "Plural": "die Anrufbeantworter",
+    "Rules": "/--"
+  },
+  {
+    "Meaning": "letter",
+    "Singular": "der Brief",
+    "Plural": "die Briefe",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Receiver",
+    "Singular": "der Empfänger ",
+    "Plural": "die Empfänger",
+    "Rules": "/--"
+  },
+  {
+    "Meaning": "cellular telephone",
+    "Singular": "das Handy ",
+    "Plural": "die Handys",
+    "Rules": "/ -s "
+  },
+  {
+    "Meaning": "Account",
+    "Singular": "das Konto ",
+    "Plural": "die Konten/Kontos",
+    "Rules": "/ -(e)n, / -s"
+  },
+  {
+    "Meaning": "name",
+    "Singular": "der Name",
+    "Plural": " die Namen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Police",
+    "Singular": " die Polizei ",
+    "Plural": "die Polizeien",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Stamp",
+    "Singular": "die Briefmarke ",
+    "Plural": "die Briefmarken",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Fax",
+    "Singular": "das  Fax  ",
+    "Plural": "die Faxe",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "BirthYear",
+    "Singular": "das Geburtsjahr ",
+    "Plural": "die Geburtsjahre",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Frist Name",
+    "Singular": "der Vorname ",
+    "Plural": "die Vornamen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Switch",
+    "Singular": "der Schalter",
+    "Plural": " die Schalter",
+    "Rules": "/--"
+  },
+  {
+    "Meaning": "train",
+    "Singular": "der Zug",
+    "Plural": "die Züge",
+    "Rules": "/ \"-e"
+  },
+  {
+    "Meaning": "Ticket",
+    "Singular": "das Ticket ",
+    "Plural": "die Tickets",
+    "Rules": "/ -s"
+  },
+  {
+    "Meaning": "Bicycle",
+    "Singular": "das Fahrrad ",
+    "Plural": "die Fahrräder",
+    "Rules": "/ \"-er "
+  },
+  {
+    "Meaning": "Platform",
+    "Singular": "das Gleis ",
+    "Plural": " die Gleise",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Track",
+    "Singular": "der Bahnsteig ",
+    "Plural": "die Bahnsteige",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Departure",
+    "Singular": "der Abflug ",
+    "Plural": "die Abflüge",
+    "Rules": "\"/ \"\"-e\""
+  },
+  {
+    "Meaning": "Railway",
+    "Singular": "die Bahn ",
+    "Plural": "die Bahnen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Announcement",
+    "Singular": "die Durchsage ",
+    "Plural": " die Durchsagen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Announcement",
+    "Singular": "die Ansage ",
+    "Plural": "die Ansagen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Space",
+    "Singular": "der Platz ",
+    "Plural": "die Plätze ",
+    "Rules": "\"/ \"\"-e\""
+  },
+  {
+    "Meaning": "Tram",
+    "Singular": "die Straßenbahn ",
+    "Plural": "die Straßenbahnen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Metro / Subway",
+    "Singular": "die U-Bahn ",
+    "Plural": "die U-Bahnen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "driver",
+    "Singular": "der Fahrer ",
+    "Plural": "die Fahrer",
+    "Rules": "/--"
+  },
+  {
+    "Meaning": "Repair",
+    "Singular": "die Reparatur",
+    "Plural": "die Reparaturen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Exit",
+    "Singular": "der Ausgang ",
+    "Plural": "die Ausgänge",
+    "Rules": "\"/ \"\"-e\""
+  },
+  {
+    "Meaning": "foot/pedal",
+    "Singular": "der Fuß",
+    "Plural": "die Füße",
+    "Rules": "/ \"-e"
+  },
+  {
+    "Meaning": "City Train",
+    "Singular": "die S-Bahn ",
+    "Plural": "die S-Bahnen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Taxi",
+    "Singular": "das Taxi",
+    "Plural": "die Taxis",
+    "Rules": "/ -s "
+  },
+  {
+    "Meaning": "Entrance",
+    "Singular": "der Eingang ",
+    "Plural": "die Eingänge",
+    "Rules": "\"/ \"\"-e\""
+  },
+  {
+    "Meaning": "Sing",
+    "Singular": "das Schild",
+    "Plural": "die Schilder",
+    "Rules": "/ -er "
+  },
+  {
+    "Meaning": "Cathedral",
+    "Singular": "der Dom ",
+    "Plural": "die Dome",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Leisure",
+    "Singular": "die Freizeit ",
+    "Plural": "die Freizeiten ",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Cinema Hall",
+    "Singular": "das Kino",
+    "Plural": "die Kinos",
+    "Rules": "/ -s "
+  },
+  {
+    "Meaning": "Tree",
+    "Singular": "der Baum",
+    "Plural": "die Bäume",
+    "Rules": "/ \"-e"
+  },
+  {
+    "Meaning": "Song",
+    "Singular": "das Lied ",
+    "Plural": "die Lieder",
+    "Rules": "/ -er"
+  },
+  {
+    "Meaning": "Sun",
+    "Singular": "die Sonne",
+    "Plural": "die Sonnen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Film",
+    "Singular": "der Film",
+    "Plural": "die Filme",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Museum",
+    "Singular": "das Museum",
+    "Plural": "die Museen",
+    "Rules": "Abnormal"
+  },
+  {
+    "Meaning": "Sport",
+    "Singular": "der Sport ",
+    "Plural": "die Sporte",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Society/ Club",
+    "Singular": "der Verein ",
+    "Plural": "die Vereine",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "computer",
+    "Singular": "der Computer",
+    "Plural": "die Computer",
+    "Rules": "/--"
+  },
+  {
+    "Meaning": "Conduct / Governance / Leadership",
+    "Singular": "die Führung",
+    "Plural": " die Führungen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Concert",
+    "Singular": "das Konzert ",
+    "Plural": "die Konzerte",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Sporting Ground ",
+    "Singular": "der Sportplatz",
+    "Plural": " die Sportplätze",
+    "Rules": "\"/ \"\"-e\""
+  },
+  {
+    "Meaning": "bidding",
+    "Singular": "das Angebot ",
+    "Plural": "die Angebote",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "size / greatness",
+    "Singular": "die Größe ",
+    "Plural": "die Größen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Shoe",
+    "Singular": "der Schuh  ",
+    "Plural": "die Schuhe",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Cash Register",
+    "Singular": "die Kasse ",
+    "Plural": " die Kassen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Color",
+    "Singular": "die Farbe",
+    "Plural": "die Farben",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Jacket/coat",
+    "Singular": "die Jacke",
+    "Plural": " die Jacken",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Favorite Shoe",
+    "Singular": "der Lieblingsschuh ",
+    "Plural": "die Lieblingsschuhe",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Cloth",
+    "Singular": "die Kleidung  ",
+    "Plural": "die Kleidungen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Money",
+    "Singular": "das Geld",
+    "Plural": "die Gelder",
+    "Rules": "/ -er "
+  },
+  {
+    "Meaning": "Sweater",
+    "Singular": "der Pullover ",
+    "Plural": " die Pullover",
+    "Rules": "/--"
+  },
+  {
+    "Meaning": "Credit Card",
+    "Singular": "die Kreditkarte ",
+    "Plural": "die Kreditkarten",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Load",
+    "Singular": "der Laden ",
+    "Plural": " die Läden",
+    "Rules": "\"/-\"\"- \""
+  },
+  {
+    "Meaning": "Shop",
+    "Singular": "das Geschäft ",
+    "Plural": "die Geschäfte",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Price",
+    "Singular": "der Preis ",
+    "Plural": "die Preise",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Arm",
+    "Singular": "der Arm ",
+    "Plural": "die Arme",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "leg",
+    "Singular": "das Bein",
+    "Plural": "die Beine",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Fever",
+    "Singular": "das Fieber ",
+    "Plural": "die Fieber",
+    "Rules": "/--"
+  },
+  {
+    "Meaning": "hand/manual",
+    "Singular": "die Hand",
+    "Plural": "die Hände",
+    "Rules": "/ \"-e"
+  },
+  {
+    "Meaning": "Ear",
+    "Singular": " das Ohr",
+    "Plural": "  die Ohren",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "doctor",
+    "Singular": "der Arzt",
+    "Plural": "die ärzte",
+    "Rules": "/ \"-e"
+  },
+  {
+    "Meaning": "doctor (PhD)",
+    "Singular": "der Doktor ",
+    "Plural": "die Doktoren",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "head",
+    "Singular": "der Kopf",
+    "Plural": "die Köpfe",
+    "Rules": "/ \"-e"
+  },
+  {
+    "Meaning": "Practice",
+    "Singular": "die Praxis ",
+    "Plural": "die Praxen",
+    "Rules": "Abnormal"
+  },
+  {
+    "Meaning": "Eye",
+    "Singular": "das Auge",
+    "Plural": "die Augen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Thirst",
+    "Singular": "der Durst",
+    "Plural": " | -",
+    "Rules": "No Plural"
+  },
+  {
+    "Meaning": "Weight",
+    "Singular": "das Gewicht ",
+    "Plural": "die Gewichte",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "mouth",
+    "Singular": "der Mund ",
+    "Plural": " die Münder",
+    "Rules": "\"/ \"\"-er \""
+  },
+  {
+    "Meaning": "Problem",
+    "Singular": "das Problem ",
+    "Plural": "die Probleme",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Gut/ Belly",
+    "Singular": "der Bauch ",
+    "Plural": " die Bäuche",
+    "Rules": "\"/ \"\"-e\""
+  },
+  {
+    "Meaning": "Haar",
+    "Singular": "das Haar",
+    "Plural": "die Haare",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Nose",
+    "Singular": "die Nase  ",
+    "Plural": "die Nasen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Pencil",
+    "Singular": "der Bleistift ",
+    "Plural": "die Bleistifte",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "printer",
+    "Singular": "der Drucker ",
+    "Plural": "die Drucker",
+    "Rules": "/--"
+  },
+  {
+    "Meaning": "Company",
+    "Singular": "die Firma",
+    "Plural": " die Firmen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Homework",
+    "Singular": " \tdie Hausaufgabe ",
+    "Plural": "die Hausaufgaben",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Ballpen",
+    "Singular": "der Kugelschreiber ",
+    "Plural": "die Kugelschreiber",
+    "Rules": "/--"
+  },
+  {
+    "Meaning": "Female Teacher",
+    "Singular": " \tdie Lehrerin ",
+    "Plural": "die Lehrerinnen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "teacher",
+    "Singular": "der Lehrer",
+    "Plural": "die Lehrer",
+    "Rules": "/--"
+  },
+  {
+    "Meaning": "Test",
+    "Singular": "der Test  ",
+    "Plural": "die Tests",
+    "Rules": "/ -s"
+  },
+  {
+    "Meaning": "Place/position",
+    "Singular": "\tdie Stelle",
+    "Plural": "die Stellen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Worker",
+    "Singular": "der Arbeiter ",
+    "Plural": "die Arbeiter",
+    "Rules": "/--"
+  },
+  {
+    "Meaning": "office",
+    "Singular": "das Büro",
+    "Plural": "das Büros",
+    "Rules": "/ -s "
+  },
+  {
+    "Meaning": "Fault / Mistake",
+    "Singular": "der Fehler ",
+    "Plural": "die Fehler",
+    "Rules": "/--"
+  },
+  {
+    "Meaning": "Course",
+    "Singular": "        der Kurs ",
+    "Plural": "die Kurse",
+    "Rules": "/--"
+  },
+  {
+    "Meaning": "backdrop",
+    "Singular": "das Prospekt  ",
+    "Plural": "die Prospekte",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Break",
+    "Singular": "die Pause",
+    "Plural": " die Pausen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "lession / tution / class",
+    "Singular": "der Unterricht ",
+    "Plural": " die Unterrichte",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Study",
+    "Singular": "das Studium ",
+    "Plural": " die Studien",
+    "Rules": "Abnormal"
+  },
+  {
+    "Meaning": "Workplace",
+    "Singular": "der Arbeitsplatz ",
+    "Plural": "die Arbeitsplätze",
+    "Rules": "\"/ \"\"-e\""
+  },
+  {
+    "Meaning": "House husband",
+    "Singular": "der Hausmann ",
+    "Plural": " die Hausmänner",
+    "Rules": "\"/ \"\"-er \""
+  },
+  {
+    "Meaning": "Plan",
+    "Singular": "der Plan ",
+    "Plural": "die Pläne",
+    "Rules": "\"/ \"\"-e\""
+  },
+  {
+    "Meaning": "School",
+    "Singular": "die Schule ",
+    "Plural": "die Schulen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "language",
+    "Singular": "die Sprache ",
+    "Plural": "die Sprachen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Hour",
+    "Singular": "die Stunde",
+    "Plural": "die Stunden",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "student",
+    "Singular": "der Schüler",
+    "Plural": "die Schüler",
+    "Rules": "/--"
+  },
+  {
+    "Meaning": "Factory",
+    "Singular": "die Fabrik",
+    "Plural": "die Fabriken",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Job",
+    "Singular": "der Job ",
+    "Plural": "die Jobs",
+    "Rules": "/ -s"
+  },
+  {
+    "Meaning": "Internship",
+    "Singular": "das Praktikum ",
+    "Plural": "die Praktika",
+    "Rules": "Abnormal"
+  },
+  {
+    "Meaning": "Class",
+    "Singular": "die Klasse ",
+    "Plural": "die Klassen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "saleswomen",
+    "Singular": "die Verkäuferin ",
+    "Plural": " die Verkäuferinnen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Backery",
+    "Singular": "die Bäckerei ",
+    "Plural": "die Bäckereien",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Guidebook",
+    "Singular": "der Reiseführer ",
+    "Plural": "die Reiseführer",
+    "Rules": "/--"
+  },
+  {
+    "Meaning": "Gift",
+    "Singular": "das Geschenk",
+    "Plural": "die Geschenke",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Customer",
+    "Singular": "der Kunde ",
+    "Plural": "die Kunden",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "NewsPaper",
+    "Singular": " die Zeitung",
+    "Plural": "die Zeitungen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Book",
+    "Singular": "das Buch",
+    "Plural": "die Bücher",
+    "Rules": "/ \"-er "
+  },
+  {
+    "Meaning": "Thing",
+    "Singular": "das Ding",
+    "Plural": " die Dinge",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Customer",
+    "Singular": "die Kundin",
+    "Plural": " die Kundinnen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Cd",
+    "Singular": "die CD",
+    "Plural": "die CDs",
+    "Rules": "/ -s"
+  },
+  {
+    "Meaning": "Veggitable",
+    "Singular": "das Gemüse",
+    "Plural": "always Singular",
     "Rules": ""
+  },
+  {
+    "Meaning": "Admission",
+    "Singular": "der Eintritt ",
+    "Plural": "die Eintritte",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Squad",
+    "Singular": "die Gruppe ",
+    "Plural": "die Gruppen",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Clock",
+    "Singular": " \tdie Uhr ",
+    "Plural": " die Uhren",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "time",
+    "Singular": "die Zeit",
+    "Plural": "die Zeiten",
+    "Rules": "/ -(e)n"
+  },
+  {
+    "Meaning": "Converstion",
+    "Singular": "das Gespräch ",
+    "Plural": "die Gespräche",
+    "Rules": "/ -e"
+  },
+  {
+    "Meaning": "Appointment",
+    "Singular": "der Termin ",
+    "Plural": "die Termine",
+    "Rules": "/ -e"
   }
 ]
