@@ -18,6 +18,17 @@ const images = {
   "Possessive Pronoun": require("../../assets/tables/possessivepronomen.jpg"),
   Article: require("../../assets/tables/pronoun.jpg"),
   "Verb Konjugation Special Rules": require("../../assets/tables/verb konjugation special rules.jpg"),
+  "akkusativePreposition": require("../../assets/images/learn/akkusativePreposition.jpg"),
+  "dativePreposition": require("../../assets/images/learn/dativPreposition.jpg"), 
+  "Temporal Preposition": require("../../assets/images/learn/temporalpreposition.jpg"),
+  "Modal Verb": require("../../assets/images/learn/modalverb.jpg"), 
+  "NebenSatz 1": require("../../assets/images/learn/nebensatz1.jpg"), 
+  "NebenSatz 2": require("../../assets/images/learn/nebensatz2.jpg"), 
+  "Perfeck": require("../../assets/images/learn/perfeck.jpg"), 
+  "Personal Pronomen": require("../../assets/images/learn/personalpronomen.jpg"), 
+
+  
+  
 };
 const { width, height } = Dimensions.get("window");
 const folderUri = FileSystem.documentDirectory
